@@ -1,11 +1,3 @@
--- Quest: C:\QUESTS\WORKING\N0B30Y15.Qbn.
--- StartsBy: NPC
--- Questee: member
--- Questor: mage
--- Repute: 30
--- QuestId: 15
--- Edited for Daggerfall Unity by Jay_H
-Messages: 11
 Quest: N0B30Y15
 DisplayName: Rogue Imp
 -- Message panels
@@ -75,23 +67,8 @@ QuestLogEntry:  [1010]
  in _palace_ of __palace_.
  I have =traveltime_ days to succeed.
 
-
--- Symbols used in the QRC file:
---
---              %god occurs 1 time.
---              %pcf occurs 4 times.
---              %pcn occurs 4 times.
---              %qdt occurs 1 time.
---               %ra occurs 17 times.
---      =traveltime_ occurs 4 times.
---    ___questgiver_ occurs 1 time.
---         __palace_ occurs 8 times.
---            _gold_ occurs 6 times.
---          _palace_ occurs 5 times.
---      _questgiver_ occurs 2 times.
-
 QBN:
-Item _gold_ gold
+Item _gold_ gold range 100 to 200
 
 Person _questgiver_ face 8 group Questor
 

@@ -1,10 +1,3 @@
--- Quest: C:\QUESTS\WORKING\M0B30Y04.Qbn.
--- StartsBy: NPC
--- Questee: member
--- Questor: fighter
--- Repute: 30
--- QuestId: 4
-Messages: 81
 Quest: M0B30Y04
 DisplayName: Fighters Lich
 -- Message panels
@@ -98,26 +91,13 @@ Message:  1080
 <ce>                 Should be just the kind of thing that
 <ce>             a lich-killer like you does before breakfast.
 
-
--- Symbols used in the QRC file:
---
---              %god occurs 2 times.
---              %pcf occurs 4 times.
---              %qdt occurs 1 time.
---               %ra occurs 6 times.
---       =1stparton_ occurs 2 times.
---       ___mondung_ occurs 5 times.
---       ___newdung_ occurs 1 time.
---    ___questgiver_ occurs 1 time.
---          _reward_ occurs 3 times.
-
 QBN:
-Item _reward_ gold
+Item _reward_ gold range 2100 to 2400
 
 Person _questgiver_ group Questor male
 
-Place _mondung_ remote dungeon
-Place _newdung_ remote dungeon14
+Place _mondung_ remote dungeon8
+Place _newdung_ remote dungeon
 
 Clock _1stparton_ 00:00 0 flag 17 range 0 2
 

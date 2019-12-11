@@ -55,64 +55,6 @@ QuestComplete:  [1004]
 RumorsDuringQuest:  [1005]
 That crazy mage at the Guild insists that ___dungeon_ has the best _ingredient_
 
-RumorsPostfailure:  [1006]
-I got a boil the other day ... but it healed.
-<--->
-I just had a three hour conversation about the weather.
-<--->
-The weather is pretty usual for this time of year.
-<--->
-It seems a trifle coolish in %cn for this time of year.
-<--->
-It sure is a lot warmer today than this time last year.
-<--->
-My great aunt is going to a specialist across the Bay.
-<--->
-It's always funny what time it gets dark around here.
-<--->
-We should erect a war statue around here.
-<--->
-The kids these days with their magic. %oth, I don't know.
-<--->
-I had the weirdest dream last night.
-<--->
-I heard a great joke. %jok
-<--->
-%jok Actually, that's a joke.
-<--->
-%jok Can you explain that to me?
-<--->
-The legal system in %reg has it good points and bad ones.
-
-RumorsPostsuccess:  [1007]
-I got a boil the other day ... but it healed.
-<--->
-I just had a three hour conversation about the weather.
-<--->
-The weather is pretty usual for this time of year.
-<--->
-It seems a trifle coolish in %cn for this time of year.
-<--->
-It sure is a lot warmer today than this time last year.
-<--->
-My great aunt is going to a specialist across the Bay.
-<--->
-It's always funny what time it gets dark around here.
-<--->
-We should erect a war statue around here.
-<--->
-The kids these days with their magic. %oth, I don't know.
-<--->
-I had the weirdest dream last night.
-<--->
-I heard a great joke. %jok
-<--->
-%jok Actually, that's a joke.
-<--->
-%jok Can you explain that to me?
-<--->
-The legal system in %reg has it good points and bad ones.
-
 QuestorPostsuccess:  [1008]
 I haven't forgotten you, %pcf. You're the %ra who got the _ingredient_.
 
@@ -145,31 +87,12 @@ Message:  1080
 <ce>                   I understand that people like you
 <ce>                       salivate over such things.
 
-
--- Symbols used in the QRC file:
---
---               %cn occurs 2 times.
---               %g2 occurs 2 times.
---              %jok occurs 6 times.
---              %oth occurs 10 times.
---              %pcf occurs 3 times.
---              %pcn occurs 3 times.
---              %qdt occurs 1 time.
---               %ra occurs 27 times.
---              %reg occurs 2 times.
---      =traveltime_ occurs 2 times.
---       ___dungeon_ occurs 3 times.
---       ___newdung_ occurs 1 time.
---        ___qgiver_ occurs 1 time.
---      _ingredient_ occurs 61 times.
---          _qgiver_ occurs 4 times.
-
 QBN:
 Item _ingredient_ organs
 
 Person _qgiver_ group Questor male
 
-Place _dungeon_ remote dungeon
+Place _dungeon_ remote dungeon3
 Place _newdung_ remote dungeon
 
 Clock _traveltime_ 00:00 0 flag 17 range 0 2

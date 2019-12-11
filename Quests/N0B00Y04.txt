@@ -1,11 +1,3 @@
--- Quest: C:\QUESTS\WORKING\N0B00Y04.Qbn.
--- StartsBy: NPC
--- Questee: member
--- Questor: mage
--- Repute: 0
--- QuestId: 4
--- Edited for Daggerfall Unity by Jay_H
-Messages: 46
 Quest: N0B00Y04
 DisplayName: Retrieve an Ingredient
 -- Message panels
@@ -49,66 +41,8 @@ QuestComplete:  [1004]
 <ce>                         be. Well, here is your
 <ce>                          finder's fee, %pcf.
 
-RumorsDuringQuest:  [1005]
-I got a boil the other day ... but it healed.
-<--->
-I just had a three hour conversation about the weather.
-<--->
-The weather is pretty usual for this time of year.
-<--->
-It seems a trifle coolish in %cn for this time of year.
-<--->
-It sure is a lot warmer today than this time last year.
-<--->
-My great aunt is going to a specialist across the Bay.
-<--->
-It's always funny what time it gets dark around here.
-<--->
-We should erect a war statue around here.
-<--->
-The kids these days with their magic. %oth, I don't know.
-<--->
-I had the weirdest dream last night.
-<--->
-I heard a great joke. %jok
-<--->
-%jok Actually, that's a joke.
-<--->
-%jok Can you explain that to me?
-<--->
-The legal system in %reg has good points and bad ones.
-
 RumorsPostfailure:  [1006]
 _qgiver_ has been complaining about the quality of Mages Guildmembers.
-
-RumorsPostsuccess:  [1007]
-I got a boil the other day ... but it healed.
-<--->
-I just had a three hour conversation about the weather.
-<--->
-The weather is pretty usual for this time of year.
-<--->
-It seems a trifle coolish in %cn for this time of year.
-<--->
-It sure is a lot warmer today than this time last year.
-<--->
-My great aunt is going to a specialist across the Bay.
-<--->
-It's always funny what time it gets dark around here.
-<--->
-We should erect a war statue around here.
-<--->
-The kids these days with their magic. %oth, I don't know.
-<--->
-I had the weirdest dream last night.
-<--->
-I heard a great joke. %jok
-<--->
-%jok Actually, that's a joke.
-<--->
-%jok Can you explain that to me?
-<--->
-The legal system in %reg has some good points and bad ones.
 
 QuestorPostsuccess:  [1008]
 Well, after getting that _ingredient_, how can I not be happy to see you?
@@ -139,24 +73,6 @@ QuestTimeLapse:  [1045]
 <ce>                      bring him a _ingredient_ by
 <ce>                      today.  %g will no doubt be
 <ce>                             disappointed.
-
-
--- Symbols used in the QRC file:
---
---               %cn occurs 2 times.
---                %g occurs 1 time.
---               %g2 occurs 2 times.
---              %jok occurs 6 times.
---              %oth occurs 10 times.
---              %pcf occurs 3 times.
---              %qdt occurs 1 time.
---              %reg occurs 2 times.
---      =traveltime_ occurs 2 times.
---       ___dungeon_ occurs 2 times.
---        ___qgiver_ occurs 1 time.
---            _gold_ occurs 1 time.
---      _ingredient_ occurs 9 times.
---          _qgiver_ occurs 4 times.
 
 QBN:
 Item _ingredient_ organs

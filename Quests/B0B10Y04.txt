@@ -1,10 +1,3 @@
--- Quest: C:\QUESTS\WORKING\B0B10Y04.Qbn.
--- StartsBy: NPC
--- Questee: member
--- Questor: knight
--- Repute: 10
--- QuestId: 4
-Messages: 18
 Quest: B0B10Y04
 DisplayName: The Crazed Mercenary
 -- Message panels
@@ -113,28 +106,11 @@ Message:  1017
 <ce>                lovely, I couldn sell even when I was so
 <ce>                 hunger. Please take it for my thanks.
 
-
--- Symbols used in the QRC file:
---
---              %god occurs 1 time.
---              %pcf occurs 6 times.
---              %pcn occurs 1 time.
---              %pct occurs 2 times.
---              %qdt occurs 1 time.
---               %ra occurs 2 times.
---              %reg occurs 6 times.
---                %t occurs 6 times.
---        =2mondung_ occurs 2 times.
---         =soldier_ occurs 1 time.
---       ___mondung_ occurs 6 times.
---        ___qgiver_ occurs 5 times.
---         _soldier_ occurs 4 times.
-
 QBN:
 
 Person _qgiver_ group Questor male
 
-Place _mondung_ remote dungeon
+Place _mondung_ remote dungeon1
 Place tavern local tavern
 
 Clock _2mondung_ 00:00 0 flag 17 range 0 2

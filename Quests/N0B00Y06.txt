@@ -1,11 +1,3 @@
--- Quest: C:\QUESTS\WORKING\N0B00Y06.Qbn.
--- StartsBy: NPC
--- Questee: member
--- Questor: mage
--- Repute: 0
--- QuestId: 6
--- Edited for Daggerfall Unity by Jay_H
-Messages: 12
 Quest: N0B00Y06
 DisplayName: Mummy Wrappings
 -- Message panels
@@ -67,35 +59,6 @@ RumorsDuringQuest:  [1005]
 <--->
 =mummy_ was supposedly a %t in ancient %reg who was too wicked to die.
 
-RumorsPostfailure:  [1006]
-I got a boil the other day ... but it healed.
-<--->
-I just had a three hour conversation about the weather.
-<--->
-The weather is pretty usual for this time of year.
-<--->
-It seems a trifle coolish in %cn for this time of year.
-<--->
-It sure is a lot warmer today than this time last year.
-<--->
-My great aunt is going to a specialist across the Bay.
-<--->
-It's always funny what time it gets dark around here.
-<--->
-We should erect a war statue around here.
-<--->
-The kids these days with their magic. %oth, I don't know.
-<--->
-I had the weirdest dream last night.
-<--->
-I heard a great joke. %jok
-<--->
-%jok Actually, that's a joke.
-<--->
-%jok Can you explain that to me?
-<--->
-The legal system in %reg has it good points and bad ones.
-
 RumorsPostsuccess:  [1007]
 =mummy_'s reign in %reg began before the First Era and ended with you.
 <--->
@@ -124,29 +87,9 @@ Message:  1011
 <ce>                         wanted you to get from
 <ce>                                =mummy_.
 
-
--- Symbols used in the QRC file:
---
---               %cn occurs 1 time.
---               %g3 occurs 1 time.
---              %jok occurs 3 times.
---              %oth occurs 7 times.
---              %pcf occurs 2 times.
---              %pct occurs 2 times.
---              %qdt occurs 1 time.
---               %ra occurs 2 times.
---              %reg occurs 21 times.
---                %t occurs 2 times.
---           =mummy_ occurs 11 times.
---         =queston_ occurs 2 times.
---       ___mondung_ occurs 3 times.
---        ___qgiver_ occurs 1 time.
---            _gold_ occurs 7 times.
---          _qgiver_ occurs 3 times.
-
 QBN:
 Item _wrappings_ mummy_wrappings
-Item _gold_ gold
+Item _gold_ gold range 700 to 900
 
 Person _qgiver_ group Questor male
 

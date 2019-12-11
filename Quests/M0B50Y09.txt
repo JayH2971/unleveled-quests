@@ -1,11 +1,3 @@
--- Quest: C:\QUESTS\WORKING\M0B50Y09.Qbn.
--- StartsBy: NPC
--- Questee: member
--- Questor: fighter
--- Repute: 50
--- QuestId: 9
--- Edited for Daggerfall Unity by Jay_H
-Messages: 81
 Quest: M0B50Y09
 DisplayName: Hunt for a Gargoyle
 -- Message panels
@@ -14,7 +6,7 @@ QRC:
 QuestorOffer:  [1000]
 <ce>              A certain merchant needs to have a monster,
 <ce>               a gargoyle to be precise, dispatched. The
-<ce>               pay is a modest _gold_ gold pieces. Can I
+<ce>               pay is an enchanted _gold_. Can I
 <ce>                     have your help in this matter?
 
 RefuseQuest:  [1001]
@@ -34,8 +26,8 @@ AcceptQuest:  [1002]
 
 QuestComplete:  [1004]
 <ce>                        Hail to the hero, %pcn!
-<ce>                     Well done! This paltry fee of
-<ce>                    _gold_ is hardly a worthy reward
+<ce>                     Well done! This paltry _gold_
+<ce>                    is hardly a worthy reward
 <ce>                            for such a deed.
 
 RumorsDuringQuest:  [1005]
@@ -78,25 +70,13 @@ Message:  1080
 <ce>                     Maybe this map to ___newdung_
 <ce>                    will sweeten the deal a little.
 
-
--- Symbols used in the QRC file:
---
---              %pcn occurs 3 times.
---              %qdt occurs 1 time.
---           =2dung_ occurs 3 times.
---       ___dungeon_ occurs 2 times.
---       ___newdung_ occurs 1 time.
---        ___qgiver_ occurs 1 time.
---            _gold_ occurs 2 times.
---         _monster_ occurs 1 time.
-
 QBN:
-Item _gold_ gold
+Item _gold_ magic_item
 
 Person _qgiver_ group Questor male
 
-Place _dungeon_ remote dungeon
-Place _newdung_ remote dungeon8
+Place _dungeon_ remote dungeon2
+Place _newdung_ remote dungeon
 
 Clock _2dung_ 00:00 0 flag 17 range 0 2
 Clock _end_ 00:00

@@ -1,11 +1,3 @@
--- Quest: C:\QUESTS\WORKING\B0B40Y08.Qbn.
--- StartsBy: NPC
--- Questee: member
--- Questor: knight
--- Repute: 40
--- QuestId: 8
--- Edited for Daggerfall Unity by Jay_H
-Messages: 12
 Quest: B0B40Y08
 DisplayName: Still More Trouble with Orcs
 -- Message panels
@@ -61,22 +53,6 @@ Message:  1011
 <ce>                          =monster_ is dead.
 <ce>                       The orcs will no longer be
 <ce>                            a theat to %reg.
-
-
--- Symbols used in the QRC file:
---
---               %cn occurs 1 time.
---              %pcn occurs 2 times.
---              %qdt occurs 1 time.
---               %ra occurs 15 times.
---              %reg occurs 7 times.
---           =2dung_ occurs 2 times.
---         ==qgiver_ occurs 1 time.
---         =monster_ occurs 3 times.
---       ___dungeon_ occurs 5 times.
---        ___qgiver_ occurs 1 time.
---         _monster_ occurs 1 time.
---          _qgiver_ occurs 2 times.
 
 QBN:
 

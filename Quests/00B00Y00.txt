@@ -1,10 +1,3 @@
--- Quest: C:\QUESTS\WORKING\00B00Y00.Qbn.
--- StartsBy: NPC
--- Questee: member
--- Questor: Julianos
--- Repute: 0
--- QuestId: 0
-Messages: 32
 Quest: 00B00Y00
 DisplayName: The Price of Knowledge
 -- Message panels
@@ -23,7 +16,7 @@ RefuseQuest:  [1001]
 AcceptQuest:  [1002]
 <ce>                      Good. The prodigal one is a
 <ce>                      nightblade called =monster_
-<ce>                who has taken refuge in %g3 laboratory,
+<ce>                who has taken refuge in %g3 stronghold,
 <ce>                      ___mondung_. If you have not
 <ce>             returned in =1stparton_ days with _monster_'s
 <ce>      blood on your hands, we will assume you have failed or have
@@ -76,26 +69,12 @@ Message:  1031
 <ce>                       You have slain =monster_.
 <ce>                       The School will be proud.
 
-
--- Symbols used in the QRC file:
---
---               %g3 occurs 2 times.
---              %pcf occurs 10 times.
---              %pcn occurs 1 time.
---              %qdt occurs 1 time.
---       =1stparton_ occurs 2 times.
---         =monster_ occurs 9 times.
---       ___mondung_ occurs 3 times.
---    ___questgiver_ occurs 1 time.
---         _monster_ occurs 5 times.
---          _reward_ occurs 2 times.
-
 QBN:
-Item _reward_ gold
+Item _reward_ gold range 800 to 1000
 
 Person _questgiver_ group Questor male
 
-Place _mondung_ remote dungeon9
+Place _mondung_ remote dungeon11
 
 Clock _1stparton_ 00:00 0 flag 17 range 0 2
 

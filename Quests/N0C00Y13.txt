@@ -1,10 +1,3 @@
--- Quest: C:\QUESTS\WORKING\N0C00Y13.Qbn.
--- StartsBy: NPC
--- Questee: anyone
--- Questor: mage
--- Repute: 0
--- QuestId: 13
-Messages: 46
 Quest: N0C00Y13
 DisplayName: An Ancient Scroll
 -- Message panels
@@ -43,93 +36,6 @@ QuestComplete:  [1004]
 <ce>                 and we'll consider you for membership
 <ce>                          in the Mages Guild.
 
-RumorsDuringQuest:  [1005]
-I got a boil the other day ... but it healed.
-<--->
-I just had a three hour conversation about the weather.
-<--->
-The weather is pretty usual for this time of year.
-<--->
-It seems a trifle coolish in %cn for this time of year.
-<--->
-It sure is a lot warmer today than this time last year.
-<--->
-My great aunt is going to a specialist across the Bay.
-<--->
-It's always funny what time it gets dark around here.
-<--->
-We should erect a war statue around here.
-<--->
-The kids these days with their magic. %oth, I don't know.
-<--->
-I had the weirdest dream last night.
-<--->
-I heard a great joke. %jok
-<--->
-%jok Actually, that's a joke.
-<--->
-%jok Can you explain that to me?
-<--->
-The legal system in %reg has some good points and bad ones.
-
-RumorsPostfailure:  [1006]
-I got a boil the other day ... but it healed.
-<--->
-I just had a three hour conversation about the weather.
-<--->
-The weather is pretty usual for this time of year.
-<--->
-It seems a trifle coolish in %cn for this time of year.
-<--->
-It sure is a lot warmer today than this time last year.
-<--->
-My great aunt is going to a specialist across the Bay.
-<--->
-It's always funny what time it gets dark around here.
-<--->
-We should erect a war statue around here.
-<--->
-The kids these days with their magic. %oth, I don't know.
-<--->
-I had the weirdest dream last night.
-<--->
-I heard a great joke. %jok
-<--->
-%jok Actually, that's a joke.
-<--->
-%jok Can you explain that to me?
-<--->
-The legal system in %reg has some good points and bad ones.
-
-RumorsPostsuccess:  [1007]
-I got a boil the other day ... but it healed.
-<--->
-I just had a three hour conversation about the weather.
-<--->
-The weather is pretty usual for this time of year.
-<--->
-It seems a trifle coolish in %cn for this time of year.
-<--->
-It sure is a lot warmer today than this time last year.
-<--->
-My great aunt is going to a specialist across the Bay.
-<--->
-It's always funny what time it gets dark around here.
-<--->
-We should erect a war statue around here.
-<--->
-The kids these days with their magic. %oth, I don't know.
-<--->
-I had the weirdest dream last night.
-<--->
-I heard a great joke. %jok
-<--->
-%jok Actually, that's a joke.
-<--->
-%jok Can you explain that to me?
-<--->
-The legal system in %reg has some good points and bad ones.
-
 QuestorPostsuccess:  [1008]
 Certainly I remember you, %pcf. You brought me that text, right?
 
@@ -163,28 +69,12 @@ QuestTimeLapse:  [1045]
 <ce>                      a frigid blast almost whirls
 <ce>                      the paper out of your hands.
 
-
--- Symbols used in the QRC file:
---
---               %cn occurs 3 times.
---               %g2 occurs 17 times.
---              %jok occurs 9 times.
---              %oth occurs 15 times.
---              %pcf occurs 3 times.
---              %pcn occurs 1 time.
---              %qdt occurs 1 time.
---               %ra occurs 1 time.
---              %reg occurs 3 times.
---      =traveltime_ occurs 3 times.
---       ___dungeon_ occurs 2 times.
---    ___questgiver_ occurs 4 times.
-
 QBN:
 Item _ingredient_ letter used 1020
 
 Person _questgiver_ group Questor male
 
-Place _dungeon_ remote dungeon
+Place _dungeon_ remote dungeon11
 
 Clock _traveltime_ 00:00 0 flag 17 range 0 2
 

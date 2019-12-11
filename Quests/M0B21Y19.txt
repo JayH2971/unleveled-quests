@@ -1,11 +1,3 @@
--- Quest: C:\QUESTS\WORKING\M0B21Y19.Qbn.
--- StartsBy: NPC
--- Questee: member
--- Questor: fighter
--- Repute: 21
--- QuestId: 19
--- Edited for Daggerfall Unity by Jay_H
-Messages: 72
 Quest: M0B21Y19
 DisplayName: Standard Protection
 -- Message panels
@@ -163,32 +155,6 @@ Message:  1070
 Message:  1071
 <ce>                       Thank you for your help,
 <ce>                    but I'll go on my own from here.
-
-
--- Symbols used in the QRC file:
---
---                %g occurs 3 times.
---               %g2 occurs 5 times.
---               %g3 occurs 1 time.
---              %god occurs 1 time.
---              %pcf occurs 1 time.
---              %pcn occurs 4 times.
---              %qdt occurs 4 times.
---               %ra occurs 5 times.
---              %reg occurs 2 times.
---                 _ occurs 1 time.
---         ___darkb_ occurs 7 times.
---    ___questgiver_ occurs 1 time.
---          __darkb_ occurs 3 times.
---  __daughterhouse_ occurs 2 times.
---      __safehouse_ occurs 2 times.
---           _darkb_ occurs 4 times.
---        _daughter_ occurs 6 times.
---   _daughterhouse_ occurs 2 times.
---          _reward_ occurs 1 time.
---       _safehouse_ occurs 2 times.
---          _victim_ occurs 15 times.
---     _victimhouse_ occurs 3 times.
 
 QBN:
 Item _note_ letter used 1030

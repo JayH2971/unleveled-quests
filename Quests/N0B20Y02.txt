@@ -21,8 +21,7 @@ QuestorOffer:  [1000]
 <ce>                        that a rival of %g3 may
 <ce>                       send assassins to slay %g2
 <ce>                         while %g is helpless.
-<ce>                    %g will give you an ensorcelled
-<ce>                              _magicitem_
+<ce>                    %g will give you one _magicitem_
 <ce>                          if the assassins are
 <ce>                 stopped. Will you take up this quest?
                                      <--->
@@ -125,23 +124,8 @@ Message:  1030
 <ce>                %ra assassin has killed _sleepingmage_!
 <ce>                   Bar the doors!  To arms, to arms!
 
-
--- Symbols used in the QRC file:
---
---                %g occurs 13 times.
---               %g2 occurs 6 times.
---               %g3 occurs 3 times.
---              %pcf occurs 2 times.
---              %qdt occurs 1 time.
---               %ra occurs 1 time.
---  ___sleepingmage_ occurs 1 time.
---      _magesguild_ occurs 2 times.
---       _magicitem_ occurs 2 times.
---          _qgiver_ occurs 1 time.
---    _sleepingmage_ occurs 19 times.
-
 QBN:
-Item _magicitem_ magic_item
+Item _magicitem_ trinket
 
 Person _sleepingmage_ face 5 faction The_Mages_Guild
 Person _qgiver_ group Questor male

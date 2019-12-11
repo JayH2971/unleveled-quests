@@ -1,10 +1,3 @@
--- Quest: C:\QUESTS\WORKING\C0B10Y15.Qbn.
--- StartsBy: NPC
--- Questee: member
--- Questor: temple
--- Repute: 10
--- QuestId: 15
-Messages: 41
 Quest: C0B10Y15
 DisplayName: The Relic
 -- Message panels
@@ -117,35 +110,18 @@ Message:  1040
 <ce>                       it.  Nothing will stop me,
 <ce>                          not even the grave."
 
-
--- Symbols used in the QRC file:
---
---              %god occurs 8 times.
---              %pcf occurs 2 times.
---              %pcn occurs 2 times.
---              %pct occurs 1 time.
---              %qdt occurs 1 time.
---               %ra occurs 1 time.
---            =lich_ occurs 11 times.
---           =qtime_ occurs 3 times.
---       ___mondung_ occurs 6 times.
---    ___questgiver_ occurs 11 times.
---            _item_ occurs 19 times.
---      _questgiver_ occurs 3 times.
---          _reward_ occurs 2 times.
-
 QBN:
 Item _item_ talisman
 Item _reward_ magic_item
 
 Person _questgiver_ group Questor male
 
-Place _mondung_ remote dungeon
+Place _mondung_ remote dungeon0
 
 Clock _qtime_ 00:00 0 flag 17 range 0 2
 Clock _shortdelay_ 00:02 0 flag 1 range 0 1
 
-Foe _lich_ is Lich
+Foe _lich_ is Ancient_lich
 
 --	Quest start-up:
 	place item _item_ at _mondung_ 

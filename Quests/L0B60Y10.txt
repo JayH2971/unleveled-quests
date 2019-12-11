@@ -1,11 +1,3 @@
--- Quest: C:\QUESTS\WORKING\L0B60Y10.Qbn.
--- StartsBy: NPC
--- Questee: member
--- Questor: Brotherhood
--- Repute: 60
--- QuestId: 10
--- Edited for Daggerfall Unity by Jay_H
-Messages: 24
 Quest: L0B60Y10
 DisplayName: The Veteran
 -- Message panels
@@ -42,14 +34,7 @@ QuestFail:  [1003]
 QuestComplete:  [1004]
 <ce>                    What a battle! I heard about it
 <ce>                 already. Street gossip is faster than
-<ce>              a horse you know. Here's the _reward_ gold
-<ce>                       pieces for the job, %pcf.
-
-RumorsDuringQuest:  [1005]
-Such a shame, what's happening in Daggerfall.
-
-RumorsPostfailure:  [1006]
-I hear the queen is pregnant. At least thats what everyone is saying.
+<ce>              a horse you know.
 
 RumorsPostsuccess:  [1007]
 Did you hear about that war hero? Killed in a duel. What a shame.
@@ -81,20 +66,7 @@ Message:  1022
 Message:  1023
 <ce>                   This isn't a man! It's a vampire!
 
-
--- Symbols used in the QRC file:
---
---              %pcf occurs 3 times.
---              %pcn occurs 2 times.
---              %qdt occurs 1 time.
---              %reg occurs 1 time.
---       =1stparton_ occurs 4 times.
---    ___questgiver_ occurs 1 time.
---        __mondung_ occurs 8 times.
---          _reward_ occurs 3 times.
-
 QBN:
-Item _reward_ gold
 
 Person _questgiver_ face 112 group Questor
 
@@ -114,7 +86,7 @@ Foe _F.03_ is Barbarian
 
 _pcgetsgold_ task:
 	when _qgclicked_ and _S.02_ 
-	give pc _reward_ 
+	give pc nothing 
 	end quest 
 
 _qgclicked_ task:

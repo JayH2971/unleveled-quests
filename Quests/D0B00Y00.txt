@@ -1,10 +1,3 @@
--- Quest: C:\QUESTS\WORKING\D0B00Y00.Qbn.
--- StartsBy: NPC
--- Questee: member
--- Questor: Akatosh
--- Repute: 0
--- QuestId: 0
-Messages: 31
 Quest: D0B00Y00
 DisplayName: Avenge the Dragons
 -- Message panels
@@ -89,26 +82,12 @@ Message:  1030
  back at the Chantry in ___questgiver_
  in =1stparton_ days.
 
-
--corrected %qdat to %qdt
-
-
--- Symbols used in the QRC file:
---
---              %pcf occurs 12 times.
---             %qdat occurs 1 time.
---              %reg occurs 1 time.
---       =1stparton_ occurs 4 times.
---       ___mondung_ occurs 2 times.
---    ___questgiver_ occurs 4 times.
---          _reward_ occurs 2 times.
-
 QBN:
-Item _reward_ gold
+Item _reward_ gold range 600 to 800
 
 Person _questgiver_ group Questor male
 
-Place _mondung_ remote dungeon
+Place _mondung_ remote dungeon3
 
 Clock _1stparton_ 00:00 0 flag 17 range 0 2
 

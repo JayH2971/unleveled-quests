@@ -1,11 +1,3 @@
--- Quest: C:\QUESTS\WORKING\M0B11Y18.Qbn.
--- StartsBy: NPC
--- Questee: member
--- Questor: fighter
--- Repute: 11
--- QuestId: 18
--- Edited for Daggerfall Unity by Jay_H
-Messages: 74
 Quest: M0B11Y18
 DisplayName: Lord K'avar Quest Part I
 -- Message panels

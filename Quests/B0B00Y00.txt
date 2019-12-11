@@ -1,10 +1,3 @@
--- Quest: C:\QUESTS\WORKING\B0B00Y00.Qbn.
--- StartsBy: NPC
--- Questee: member
--- Questor: knight
--- Repute: 0
--- QuestId: 0
-Messages: 16
 Quest: B0B00Y00
 DisplayName: The Princess
 -- Message panels
@@ -130,25 +123,6 @@ Message:  1015
 <ce>                            I'm Lady _lady_,
 <ce>                      let's get out of here now."
 
-
--- Symbols used in the QRC file:
---
---               %cn occurs 2 times.
---              %god occurs 3 times.
---              %pcf occurs 5 times.
---              %pcn occurs 1 time.
---              %pct occurs 1 time.
---              %qdt occurs 1 time.
---               %ra occurs 2 times.
---              %reg occurs 4 times.
---        =2mondung_ occurs 4 times.
---         =monster_ occurs 1 time.
---       ___mondung_ occurs 4 times.
---        ___qgiver_ occurs 2 times.
---            _lady_ occurs 18 times.
---         _monster_ occurs 9 times.
---          _qgiver_ occurs 2 times.
-
 QBN:
 Item letter31 letter used 1014
 
@@ -156,7 +130,7 @@ Person _qgiver_ group Questor
 Person _lady_ face 2 group Noble female
 Person _vamp_ face 40 factiontype Vampire_Clan
 
-Place _mondung_ remote dungeon
+Place _mondung_ remote dungeon3
 
 Clock _2mondung_ 00:00 0 flag 17 range 0 2
 Clock _S.07_ 10:00 1.16:00

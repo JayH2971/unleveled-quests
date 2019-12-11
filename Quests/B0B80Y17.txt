@@ -1,11 +1,3 @@
--- Quest: C:\QUESTS\WORKING\B0B80Y17.Qbn.
--- StartsBy: NPC
--- Questee: member
--- Questor: knight
--- Repute: 80
--- QuestId: 17
--- Edited for Daggerfall Unity by Jay_H
-Messages: 12
 Quest: B0B80Y17
 DisplayName: The Army of Undead
 -- Message panels
@@ -77,43 +69,29 @@ Message:  1011
 <ce>                     army of undead will return to
 <ce>                               the grave.
 
-
--- Symbols used in the QRC file:
---
---              %god occurs 1 time.
---              %pcn occurs 3 times.
---              %qdt occurs 1 time.
---               %ra occurs 1 time.
---              %reg occurs 1 time.
---           =2dung_ occurs 2 times.
---         ==qgiver_ occurs 4 times.
---       ___dungeon_ occurs 6 times.
---        ___qgiver_ occurs 3 times.
-
 QBN:
 
 Person _qgiver_ group Questor male
 Person _local_ face 1 group Resident2
 
-Place _dungeon_ remote dungeon
+Place _dungeon_ remote dungeon0
 
 Clock _2dung_ 00:00 0 flag 17 range 0 2
 
 Foe _F.00_ is Ancient_lich
-Foe _F.01_ is Lich
 
 --	Quest start-up:
 	start timer _2dung_ 
 	reveal _dungeon_ 
-	log 1010 step 0 
-	pick one of _old_ _S.04_ _S.04_ 
+	log 1010 step 0
+	place foe _F.00_ at _dungeon_ 
+
 
 _2dung_ task:
 	end quest 
 
 _S.01_ task:
-	killed 1 _F.00_ saying 1011 
-	killed 1 _F.01_ saying 1011 
+	killed 1 _F.00_ saying 1011
 
 _S.02_ task:
 	clicked npc _qgiver_ 
@@ -127,9 +105,3 @@ _success_ task:
 _clearclick_ task:
 	when _S.02_ and not _S.01_ 
 	clear _S.02_ _clearclick_ 
-
-_S.04_ task:
-	place foe _F.01_ at _dungeon_ 
-
-_old_ task:
-	place foe _F.00_ at _dungeon_ 

@@ -1,11 +1,3 @@
--- Quest: C:\QUESTS\WORKING\L0B50Y11.Qbn.
--- StartsBy: NPC
--- Questee: member
--- Questor: Brotherhood
--- Repute: 50
--- QuestId: 11
--- Edited for Daggerfall Unity by Jay_H
-Messages: 32
 Quest: L0B50Y11
 DisplayName: Taking on the Thieves Guild
 -- Message panels
@@ -30,8 +22,7 @@ AcceptQuest:  [1002]
 <ce>                      around a lot and is usually
 <ce>                 protected by bodyguards. Be careful.
 <ce>                 You have seven days. When it is done,
-<ce>                 return here and I will pay you _gold_
-<ce>                      gold. Ask for _questgiver_.
+<ce>                 return here and ask for _questgiver_.
 
 QuestComplete:  [1004]
 <ce>                         Excellent work %pcn.
@@ -130,28 +121,7 @@ Message:  1031
 <ce>                 _marknpc_ falls to the ground, dead.
 <ce>                    The Brotherhood will be proud.
 
-
--- Symbols used in the QRC file:
---
---                %g occurs 23 times.
---               %g2 occurs 6 times.
---               %g3 occurs 10 times.
---              %pcf occurs 43 times.
---              %pcn occurs 3 times.
---              %qdt occurs 1 time.
---              %reg occurs 2 times.
---    ___questgiver_ occurs 2 times.
---       _fakeplace_ occurs 3 times.
---            _gold_ occurs 4 times.
---       _guildhall_ occurs 4 times.
---           _house_ occurs 2 times.
---             _inn_ occurs 2 times.
---         _marknpc_ occurs 35 times.
---    _mistresshome_ occurs 2 times.
---      _questgiver_ occurs 3 times.
-
 QBN:
-Item _gold_ gold
 Item _bribe3_ gold range 50 to 50
 
 Person _mistress_ face 3 named Whitka
@@ -227,7 +197,7 @@ _clearclick_ task:
 
 _vamp3_ task:
 	when _S.07_ and _S.21_ 
-	give pc _gold_ 
+	give pc nothing 
 	end quest 
 
 _S.11_ task:

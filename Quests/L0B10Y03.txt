@@ -1,11 +1,3 @@
--- Quest: C:\QUESTS\WORKING\L0B10Y03.Qbn.
--- StartsBy: NPC
--- Questee: member
--- Questor: Brotherhood
--- Repute: 10
--- QuestId: 3
--- Edited for Daggerfall Unity by Jay_H
-Messages: 15
 Quest: L0B10Y03
 DisplayName: Unauthorized Absence
 -- Message panels
@@ -122,32 +114,12 @@ Message:  1014
 <ce>                         The Vampire, =target_
 <ce>                          is at last at rest.
 
-
--- Symbols used in the QRC file:
---
---                %g occurs 6 times.
---               %g2 occurs 4 times.
---               %g3 occurs 2 times.
---              %pcf occurs 5 times.
---              %qdt occurs 2 times.
---              %reg occurs 2 times.
---         =contact_ occurs 2 times.
---         =queston_ occurs 2 times.
---          =target_ occurs 16 times.
---       ___contact_ occurs 2 times.
---       ___mondung_ occurs 3 times.
---        ___qgiver_ occurs 1 time.
---        __contact_ occurs 1 time.
---         __qgiver_ occurs 2 times.
---         _contact_ occurs 3 times.
---          _qgiver_ occurs 1 time.
-
 QBN:
 
 Person _qgiver_ group Questor male
 Person _contact_ face 176 group Innkeeper
 
-Place _mondung_ remote dungeon
+Place _mondung_ remote dungeon3
 
 Clock _queston_ 00:00 0 flag 17 range 0 2
 

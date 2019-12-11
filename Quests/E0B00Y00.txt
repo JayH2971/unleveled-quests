@@ -1,10 +1,3 @@
--- Quest: C:\QUESTS\WORKING\E0B00Y00.Qbn.
--- StartsBy: NPC
--- Questee: member
--- Questor: Arkay
--- Repute: 0
--- QuestId: 0
-Messages: 21
 Quest: E0B00Y00
 DisplayName: The Desecrated Temple
 -- Message panels
@@ -106,25 +99,12 @@ Message:  1020
 <ce>                    You have slain the lycanthrope
 <ce>                            of ___mondung_.
 
-
--- Symbols used in the QRC file:
---
---              %oth occurs 1 time.
---              %pcf occurs 8 times.
---              %qdt occurs 1 time.
---               %ra occurs 1 time.
---              %reg occurs 1 time.
---       =1stparton_ occurs 7 times.
---       ___mondung_ occurs 13 times.
---    ___questgiver_ occurs 2 times.
---          _reward_ occurs 2 times.
-
 QBN:
-Item _reward_ gold
+Item _reward_ gold range 300 to 400
 
 Person _questgiver_ group Questor male
 
-Place _mondung_ remote dungeon
+Place _mondung_ remote dungeon6
 
 Clock _1stparton_ 00:00 0 flag 17 range 0 2
 

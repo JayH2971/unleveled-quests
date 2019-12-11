@@ -1,10 +1,3 @@
--- Quest: C:\QUESTS\WORKING\M0B00Y17.Qbn.
--- StartsBy: NPC
--- Questee: member
--- Questor: fighter
--- Repute: 0
--- QuestId: 17
-Messages: 62
 Quest: M0B00Y17
 DisplayName: Runaway Pet
 -- Message panels
@@ -163,37 +156,12 @@ Message:  1061
 <ce>                     %g gave me. I certainly don't
 <ce>                         have any use for it.
 
-
--- Symbols used in the QRC file:
---
---                %g occurs 7 times.
---               %g2 occurs 2 times.
---               %g3 occurs 3 times.
---              %god occurs 2 times.
---              %pcf occurs 2 times.
---              %pcn occurs 1 time.
---              %qdt occurs 2 times.
---               %ra occurs 1 time.
---           =qtime_ occurs 2 times.
---           =tiger_ occurs 2 times.
---         ___dummy_ occurs 3 times.
---       ___mondung_ occurs 4 times.
---    ___questgiver_ occurs 1 time.
---          __dummy_ occurs 2 times.
---      __lovehouse_ occurs 1 time.
---           _dummy_ occurs 13 times.
---            _gold_ occurs 6 times.
---            _love_ occurs 2 times.
---           _magic_ occurs 1 time.
---      _questgiver_ occurs 2 times.
---          _victim_ occurs 1 time.
-
 QBN:
 Item _I.00_ bell
 Item _I.01_ dead_body
-Item _gold_ gold
+Item _gold_ gold range 300 to 450
 Item _letter_ letter used 1060
-Item _magic_ magic_item
+Item _magic_ trinket
 
 Person _questgiver_ group Questor male
 Person _victim_ face 1 group Group_6.0

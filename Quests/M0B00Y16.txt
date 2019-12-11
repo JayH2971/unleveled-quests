@@ -1,10 +1,3 @@
--- Quest: C:\QUESTS\WORKING\M0B00Y16.Qbn.
--- StartsBy: NPC
--- Questee: member
--- Questor: fighter
--- Repute: 0
--- QuestId: 16
-Messages: 81
 Quest: M0B00Y16
 DisplayName: Giant Killing
 -- Message panels
@@ -118,35 +111,15 @@ Message:  1080
 <ce>                   younger, we could tear through it
 <ce>                   together, just like the old days.
 
-
--- Symbols used in the QRC file:
---
---                %g occurs 40 times.
---               %g2 occurs 3 times.
---              %god occurs 2 times.
---              %pcf occurs 6 times.
---              %qdt occurs 2 times.
---           =qtime_ occurs 2 times.
---       ___mondung_ occurs 8 times.
---       ___newdung_ occurs 1 time.
---    ___questgiver_ occurs 1 time.
---      ___villager_ occurs 1 time.
---          __store_ occurs 3 times.
---           _dummy_ occurs 6 times.
---            _gold_ occurs 6 times.
---      _questgiver_ occurs 1 time.
---           _store_ occurs 3 times.
---        _villager_ occurs 2 times.
-
 QBN:
-Item _gold_ gold
+Item _gold_ gold range 650 to 900
 Item _magic_ magic_item
 
 Person _questgiver_ group Questor male
 Person _dummy_ face 9 group Noble
 Person _villager_ face 8 group Shopkeeper
 
-Place _mondung_ remote dungeon
+Place _mondung_ remote dungeon11
 Place _newdung_ remote dungeon
 Place _store_ remote generalstore
 

@@ -1,11 +1,3 @@
--- Quest: C:\QUESTS\WORKING\C0B00Y14.Qbn.
--- StartsBy: NPC
--- Questee: member
--- Questor: temple
--- Repute: 0
--- QuestId: 14
--- Edited for Daggerfall Unity by Jay_H
-Messages: 62
 Quest: C0B00Y14
 DisplayName: Hunt for Undead
 -- Message panels
@@ -121,27 +113,9 @@ Message:  1061
 <ce>                     the dark halls of ___mondung_,
 <ce>                    slowly fading into the distance.
 
-
--- Symbols used in the QRC file:
---
---                %g occurs 6 times.
---               %g3 occurs 2 times.
---              %god occurs 3 times.
---              %pcf occurs 2 times.
---              %pct occurs 2 times.
---              %qdt occurs 2 times.
---        =monster1_ occurs 2 times.
---           =qtime_ occurs 3 times.
---       ___mondung_ occurs 23 times.
---        ___priest_ occurs 2 times.
---    ___questgiver_ occurs 2 times.
---         __priest_ occurs 2 times.
---     __questgiver_ occurs 11 times.
---          _priest_ occurs 3 times.
---      _questgiver_ occurs 4 times.
-
 QBN:
 Item _I.00_ item class 10 subclass 4
+Item _reward_ magic_item
 
 Person _questgiver_ group Questor male
 Person _priest_ group Cleric female
@@ -207,7 +181,7 @@ _clickqgiver_ task:
 
 _success_ task:
 	when _clickqgiver_ and _S.07_ 
-	give pc nothing 
+	give pc _reward_ 
 	unset _clickqgiver_ 
 --no idea why to unset clickqgiver. the quest is ending.
 	end quest 

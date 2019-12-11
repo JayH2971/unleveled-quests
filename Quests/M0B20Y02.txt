@@ -1,10 +1,3 @@
--- Quest: C:\QUESTS\WORKING\M0B20Y02.Qbn.
--- StartsBy: NPC
--- Questee: member
--- Questor: fighter
--- Repute: 20
--- QuestId: 2
-Messages: 81
 Quest: M0B20Y02
 DisplayName: Pack of Giants
 -- Message panels
@@ -92,27 +85,12 @@ Message:  1080
 <ce>                        this map to ___newdung_.
 <ce>                          Plenty of it there.
 
-
--- Symbols used in the QRC file:
---
---              %oth occurs 1 time.
---              %pcf occurs 5 times.
---              %pct occurs 1 time.
---              %qdt occurs 1 time.
---               %ra occurs 2 times.
---                %t occurs 1 time.
---       =1stparton_ occurs 3 times.
---       ___mondung_ occurs 5 times.
---       ___newdung_ occurs 1 time.
---    ___questgiver_ occurs 1 time.
---          _reward_ occurs 5 times.
-
 QBN:
 Item _reward_ gold
 
 Person _questgiver_ group Questor male
 
-Place _mondung_ remote dungeon
+Place _mondung_ remote dungeon11
 Place _newdung_ remote dungeon
 
 Clock _1stparton_ 00:00 0 flag 17 range 0 2

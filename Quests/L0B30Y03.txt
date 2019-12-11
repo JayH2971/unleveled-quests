@@ -1,11 +1,3 @@
--- Quest: C:\QUESTS\WORKING\L0B30Y03.Qbn.
--- StartsBy: NPC
--- Questee: member
--- Questor: Brotherhood
--- Repute: 30
--- QuestId: 3
--- Edited for Daggerfall Unity by Jay_H
-Messages: 21
 Quest: L0B30Y03
 DisplayName: Contract on a Mage
 -- Message panels
@@ -97,19 +89,7 @@ Message:  1011
 <ce>                       You have slain the mage.
 <ce>                     The Brotherhood will be proud.
 
-
--- Symbols used in the QRC file:
---
---              %pcf occurs 14 times.
---              %qdt occurs 1 time.
---       =1stparton_ occurs 3 times.
---    ___questgiver_ occurs 3 times.
---        __mondung_ occurs 3 times.
---          _reward_ occurs 1 time.
-
 QBN:
-Item _reward_ gold
-
 Person _questgiver_ face 112 group Questor
 
 Place _mondung_ remote magery
@@ -128,7 +108,7 @@ Foe _monster4_ is Spellsword
 
 _pcgetsgold_ task:
 	when _qgclicked_ and _S.02_ 
-	give pc _reward_ 
+	give pc nothing 
 	end quest 
 
 _qgclicked_ task:

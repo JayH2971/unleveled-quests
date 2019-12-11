@@ -1,10 +1,3 @@
--- Quest: C:\QUESTS\WORKING\G0B00Y00.Qbn.
--- StartsBy: NPC
--- Questee: member
--- Questor: Kynaran
--- Repute: 0
--- QuestId: 0
-Messages: 21
 Quest: G0B00Y00
 DisplayName: The Arm of Fury
 -- Message panels
@@ -75,35 +68,24 @@ Message:  1020
 <ce>                           spit on their..."
 <ce>                          The traitor is dead.
 
-
--- Symbols used in the QRC file:
---
---               %di occurs 1 time.
---                %g occurs 2 times.
---              %pcf occurs 4 times.
---              %qdt occurs 1 time.
---         =queston_ occurs 2 times.
---        ___mondun_ occurs 3 times.
---        ___qgiver_ occurs 3 times.
-
 QBN:
+Item _reward_ 600 to 800
 
 Person _qgiver_ group Questor male
 
-Place _mondun_ remote dungeon
+Place _mondun_ remote dungeon2
 
 Clock _queston_ 00:00 0 flag 17 range 0 2
 
 Foe _nightblade_ is Nightblade
 Foe _assassin_ is Assassin
 Foe _spellsword_ is Spellsword
-Foe _knight_ is Knight
 
 --	Quest start-up:
 	start timer _queston_ 
 	reveal _mondun_ 
 	log 1010 step 0 
-	pick one of _S.05_ _S.06_ _S.07_ _S.08_ 
+	pick one of _S.05_ _S.06_ _S.07_
 
 _queston_ task:
 	end quest 
@@ -114,8 +96,7 @@ _pcgetsgold_ task:
 	end quest 
 
 _mondead_ task:
-	killed 1 _assassin_ saying 1020 
-	killed 1 _knight_ saying 1020 
+	killed 1 _assassin_ saying 1020
 	killed 1 _spellsword_ saying 1020 
 	killed 1 _nightblade_ saying 1020 
 
@@ -131,10 +112,7 @@ _S.05_ task:
 	place foe _assassin_ at _mondun_ 
 
 _S.06_ task:
-	place foe _knight_ at _mondun_ 
+	place foe _nightblade_ at _mondun_ 
 
 _S.07_ task:
 	place foe _spellsword_ at _mondun_ 
-
-_S.08_ task:
-	place foe _nightblade_ at _mondun_ 

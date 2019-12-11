@@ -1,10 +1,3 @@
--- Quest: C:\QUESTS\WORKING\F0B00Y00.Qbn.
--- StartsBy: NPC
--- Questee: member
--- Questor: Dibella
--- Repute: 0
--- QuestId: 0
-Messages: 31
 Quest: F0B00Y00
 DisplayName: Desired Artwork
 -- Message panels
@@ -122,24 +115,8 @@ Message:  1030
  the icon back to _questgiver_
  in ___questgiver_ in =1stparton_ days.
 
-
--- Symbols used in the QRC file:
---
---                %g occurs 5 times.
---               %g2 occurs 2 times.
---               %g3 occurs 1 time.
---              %pcf occurs 13 times.
---              %qdt occurs 1 time.
---               %ra occurs 2 times.
---       =1stparton_ occurs 5 times.
---         =contact_ occurs 6 times.
---    ___questgiver_ occurs 3 times.
---        __contact_ occurs 8 times.
---      _questgiver_ occurs 1 time.
---          _reward_ occurs 3 times.
-
 QBN:
-Item _reward_ gold
+Item _reward_ gold range 100 to 150
 Item _item_ scarab anyInfo 1013
 
 Person _questgiver_ face 112 group Questor

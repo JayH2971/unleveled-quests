@@ -1,11 +1,3 @@
--- Quest: C:\QUESTS\WORKING\B0C00Y06.Qbn.
--- StartsBy: NPC
--- Questee: anyone
--- Questor: knight
--- Repute: 0
--- QuestId: 6
--- Edited for Daggerfall Unity by Jay_H
-Messages: 12
 Quest: B0C00Y06
 DisplayName: The Hunter
 -- Message panels
@@ -76,25 +68,12 @@ Message:  1011
 <ce>                      scorched area. This must be
 <ce>                       the one _qgiver_ spoke of.
 
-
--- Symbols used in the QRC file:
---
---               %cn occurs 1 time.
---              %god occurs 1 time.
---              %pcn occurs 2 times.
---              %qdt occurs 1 time.
---           =2dung_ occurs 4 times.
---       ___dungeon_ occurs 2 times.
---        ___qgiver_ occurs 1 time.
---         _monster_ occurs 29 times.
---          _qgiver_ occurs 4 times.
-
 QBN:
 
 Person _qgiver_ group Questor male
 Person _local_ face 207 group Resident2
 
-Place _dungeon_ remote dungeon
+Place _dungeon_ remote dungeon13
 
 Clock _2dung_ 00:00 0 flag 17 range 0 2
 

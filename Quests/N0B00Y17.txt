@@ -1,10 +1,3 @@
--- Quest: C:\QUESTS\WORKING\N0B00Y17.Qbn.
--- StartsBy: NPC
--- Questee: member
--- Questor: mage
--- Repute: 0
--- QuestId: 17
-Messages: 61
 Quest: N0B00Y17
 DisplayName: Azimuthal Vectors
 -- Message panels
@@ -287,43 +280,14 @@ Message:  1060
 <ce>                 without it.  I know you did your best.
 <ce>                  Here's _gold_ gold for your trouble.
 
-
--- Symbols used in the QRC file:
---
---                %g occurs 9 times.
---               %g2 occurs 6 times.
---               %g3 occurs 12 times.
---              %god occurs 8 times.
---              %pcf occurs 1 time.
---              %pcn occurs 1 time.
---              %pct occurs 2 times.
---              %qdt occurs 6 times.
---               %ra occurs 85 times.
---           =time1_ occurs 2 times.
---           =time2_ occurs 6 times.
---       ___contact_ occurs 2 times.
---      ___hintdung_ occurs 9 times.
---      ___itemdung_ occurs 9 times.
---         ___maker_ occurs 6 times.
---    ___questgiver_ occurs 1 time.
---   ___scholardung_ occurs 4 times.
---        __contact_ occurs 7 times.
---            _gold_ occurs 3 times.
---      _ingredient_ occurs 5 times.
---            _item_ occurs 29 times.
---           _maker_ occurs 26 times.
---      _questgiver_ occurs 10 times.
---         _scholar_ occurs 9 times.
---   _scholarreward_ occurs 2 times.
-
 QBN:
 Item _item_ magic_item
 Item _ingredient_ organs
 Item _map2_ letter used 1030
 Item _I.03_ letter used 1031
 Item _I.04_ letter used 1032
-Item _scholarreward_ magic_item
-Item _gold_ gold
+Item _scholarreward_ gem
+Item _gold_ gold range 200 to 250
 
 Person _questgiver_ face 8 group Questor
 Person _scholar_ group Chemist male

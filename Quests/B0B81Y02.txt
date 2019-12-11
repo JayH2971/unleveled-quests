@@ -1,11 +1,4 @@
--- Quest: C:\QUESTS\WORKING\B0B81Y02.Qbn.
--- StartsBy: NPC
--- Questee: member
--- Questor: knight
--- Repute: 81
--- QuestId: 2
--- Edited for Daggerfall Unity by Jay_H
-Messages: 43
+
 Quest: B0B81Y02
 DisplayName: The Lost Artifact
 -- Message panels
@@ -194,26 +187,6 @@ Message:  1042
  that I can find the artifact at _mageguild_
  in __mageguild_.
 
-
--- Symbols used in the QRC file:
---
---               %g3 occurs 5 times.
---              %oth occurs 4 times.
---              %pcf occurs 2 times.
---              %pcn occurs 7 times.
---              %qdt occurs 3 times.
---               %ra occurs 2 times.
---              %reg occurs 8 times.
---           =2dung_ occurs 2 times.
---         ==qgiver_ occurs 6 times.
---      ___dungeon2_ occurs 2 times.
---      ___dungeon3_ occurs 3 times.
---       ___dungeon_ occurs 5 times.
---        ___qgiver_ occurs 1 time.
---      __mageguild_ occurs 9 times.
---          _qgiver_ occurs 2 times.
---          _wizard_ occurs 3 times.
-
 QBN:
 Item _I.01_ artifact Warlocks_Ring
 Item _I.02_ artifact Necromancers_Amulet
@@ -234,7 +207,6 @@ Clock _2dung_ 00:00 0 flag 17 range 0 2
 Clock _S.30_ 180.13:20 0 flag 1 range 0 1
 
 Foe _F.00_ is Ancient_lich
-Foe _F.01_ is Lich
 Foe _ghost_ is Wraith
 Foe _battlemage_ is Battle_mage
 
@@ -242,13 +214,13 @@ Foe _battlemage_ is Battle_mage
 	start timer _2dung_ 
 	reveal _dungeon_ 
 	log 1010 step 0 
-	pick one of _ancientlich_ _lich_ _lich_ 
+	give item _map_ to _F.00_ 
+	place foe _F.00_ at _dungeon_
 	pick one of _artifact1_ _artifact2_ _artifact3_ _artifact4_ 
 
 variable _2dung_
 _S.01_ task:
-	killed 1 _F.01_ saying 1011 
-	killed 1 _F.00_ saying 1011 
+	killed 1 _F.01_ saying 1011
 	_map_ used do _readmap_ 
 
 _S.02_ task:
@@ -264,14 +236,7 @@ _clearclick_ task:
 	clear _S.02_ _clearclick_ 
 
 variable _S.04_
-variable _S.05_
-_ancientlich_ task:
-	give item _map_ to _F.00_ 
-	place foe _F.00_ at _dungeon_ 
-
-_lich_ task:
-	give item _map_ to _F.01_ 
-	place foe _F.01_ at _dungeon_ 
+variable _S.05_ 
 
 _artifact1_ task:
 	place item _I.03_ at _mageguild_ 

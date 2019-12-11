@@ -1,10 +1,3 @@
--- Quest: C:\QUESTS\WORKING\B0B71Y03.Qbn.
--- StartsBy: NPC
--- Questee: member
--- Questor: knight
--- Repute: 71
--- QuestId: 3
-Messages: 53
 Quest: B0B71Y03
 DisplayName: The Artifact
 -- Message panels
@@ -37,93 +30,6 @@ AcceptQuest:  [1002]
 QuestComplete:  [1004]
 <ce>                             Your quest is
 <ce>                               complete.
-
-RumorsDuringQuest:  [1005]
-I got a boil the other day ... but it healed.
-<--->
-I just had a three hour conversation about the weather.
-<--->
-The weather is pretty usual for this time of year.
-<--->
-It seems a trifle coolish in %cn for this time of year.
-<--->
-It sure is a lot warmer today than this time last year.
-<--->
-My great aunt is going to a specialist across the Bay.
-<--->
-It's always funny what time it gets dark around here.
-<--->
-We should erect a war statue around here.
-<--->
-The kids these days with their magic. %oth, I don't know.
-<--->
-I had the weirdest dream last night.
-<--->
-I heard a great joke. %jok
-<--->
-%jok Actually, that's a joke.
-<--->
-%jok Can you explain that to me?
-<--->
-The legal system in %reg has its good points and bad ones.
-
-RumorsPostfailure:  [1006]
-I got a boil the other day ... but it healed.
-<--->
-I just had a three hour conversation about the weather.
-<--->
-The weather is pretty usual for this time of year.
-<--->
-It seems a trifle coolish in %cn for this time of year.
-<--->
-It sure is a lot warmer today than this time last year.
-<--->
-My great aunt is going to a specialist across the Bay.
-<--->
-It's always funny what time it gets dark around here.
-<--->
-We should erect a war statue around here.
-<--->
-The kids these days with their magic. %oth, I don't know.
-<--->
-I had the weirdest dream last night.
-<--->
-I heard a great joke. %jok
-<--->
-%jok Actually, that's a joke.
-<--->
-%jok Can you explain that to me?
-<--->
-The legal system in %reg has its good points and bad ones.
-
-RumorsPostsuccess:  [1007]
-I got a boil the other day ... but it healed.
-<--->
-I just had a three hour conversation about the weather.
-<--->
-The weather is pretty usual for this time of year.
-<--->
-It seems a trifle coolish in %cn for this time of year.
-<--->
-It sure is a lot warmer today than this time last year.
-<--->
-My great aunt is going to a specialist across the Bay.
-<--->
-It's always funny what time it gets dark around here.
-<--->
-We should erect a war statue around here.
-<--->
-The kids these days with their magic. %oth, I don't know.
-<--->
-I had the weirdest dream last night.
-<--->
-I heard a great joke. %jok
-<--->
-%jok Actually, that's a joke.
-<--->
-%jok Can you explain that to me?
-<--->
-The legal system in %reg has its good points and bad ones.
 
 QuestorPostsuccess:  [1008]
 So, you won that which you quested for. What would have now?
@@ -328,9 +234,9 @@ Person _ruler_ group Noble female
 Person _local_ face 33 group Resident2
 Person _questgiver_ face 67 group Questor
 
-Place _dungeon1_ remote dungeon
+Place _dungeon1_ remote dungeon7
 Place _palace_ remote palace
-Place _dungeon2_ remote dungeon
+Place _dungeon2_ remote dungeon16
 
 Clock _finddaughter_ 00:00 0 flag 17 range 1 2
 

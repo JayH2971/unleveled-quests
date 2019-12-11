@@ -1,10 +1,3 @@
--- Quest: C:\QUESTS\WORKING\C0B20Y08.Qbn.
--- StartsBy: NPC
--- Questee: member
--- Questor: temple
--- Repute: 20
--- QuestId: 8
-Messages: 12
 Quest: C0B20Y08
 DisplayName: The Rite of Atonement
 -- Message panels
@@ -74,34 +67,16 @@ QuestLogEntry:  [1010]
  within =traveltime_ days.
 
 Message:  1011
-<ce>                      This is it! I can feel the
-<ce>                      purity of the _ingredient_.
-<ce>                         Now to get it back to
-<ce>                               _qgiver_.
-
-
--- Symbols used in the QRC file:
---
---                %g occurs 1 time.
---               %g3 occurs 1 time.
---              %god occurs 6 times.
---              %pcn occurs 2 times.
---              %pct occurs 18 times.
---              %qdt occurs 1 time.
---      =traveltime_ occurs 3 times.
---       ___dungeon_ occurs 4 times.
---        ___qgiver_ occurs 12 times.
---            _gold_ occurs 1 time.
---      _ingredient_ occurs 5 times.
---          _qgiver_ occurs 3 times.
+<ce>                      This is it! Now to get
+<ce>                       it back to _qgiver_.
 
 QBN:
 Item _ingredient_ organs
-Item _gold_ gold
+Item _gold_ gold range 300 to 500
 
 Person _qgiver_ group Questor male
 
-Place _dungeon_ remote dungeon
+Place _dungeon_ remote dungeon2
 
 Clock _traveltime_ 00:00 0 flag 17 range 0 2
 
@@ -121,4 +96,7 @@ _questdone_ task:
 	end quest 
 
 _S.02_ task:
-	clicked item _ingredient_ say 1011 
+	clicked item _ingredient_
+	say 1011 
+	--illegal argument
+

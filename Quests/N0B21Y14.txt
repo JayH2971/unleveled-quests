@@ -1,11 +1,3 @@
--- Quest: C:\QUESTS\WORKING\N0B21Y14.Qbn.
--- StartsBy: NPC
--- Questee: member
--- Questor: mage
--- Repute: 21
--- QuestId: 14
--- Edited for Daggerfall Unity by Jay_H
-Messages: 25
 Quest: N0B21Y14
 DisplayName: Oracle
 -- Message panels
@@ -222,48 +214,19 @@ Message:  1024
                    The Acolyte
 
 
--- Symbols used in the QRC file:
---
---              %dat occurs 1 time.
---                %g occurs 6 times.
---               %g2 occurs 22 times.
---               %g3 occurs 9 times.
---              %oth occurs 1 time.
---              %pcf occurs 3 times.
---              %pcn occurs 7 times.
---              %pct occurs 5 times.
---              %qdt occurs 2 times.
---               %ra occurs 1 time.
---              %reg occurs 7 times.
---         =acolyte_ occurs 1 time.
---        =queston1_ occurs 4 times.
---        =queston2_ occurs 1 time.
---       ___mondung_ occurs 2 times.
---     __noblehouse_ occurs 1 time.
---   __oracletemple_ occurs 3 times.
---         __temple_ occurs 14 times.
---            _gold_ occurs 1 time.
---            _love_ occurs 3 times.
---           _noble_ occurs 22 times.
---      _noblehouse_ occurs 3 times.
---          _temple_ occurs 7 times.
-
 QBN:
 Item _oracleNote_ letter used 1011
 Item _oracleMsg_ letter used 1024
---added underscores to oracleNote and oracleMsg because they are variables
-Item _gold_ gold
+Item _gold_ gold range 550 to 800
 
 Person _oracle_ face 251 named The_Oracle anyInfo 1013
 Person _acolyte_ face 5 named The_Acolyte anyInfo 1012
--changed oracle and acolyte to Named instead of Faction to prevent dialogue beginning
 Person _noble_ face 25 factiontype Province
 Person _thd_ named Queen_Akorithi
---%thd corrected to _thd_
 Person _love_ face 1 group Group_7.0
 Person _giver_ group Questor male
 
-Place _mondung_ remote dungeon
+Place _mondung_ remote dungeon4
 Place _temple_ local temple
 Place _noblehouse_ local house2
 Place _oracletemple_ remote temple

@@ -81,23 +81,6 @@ Message:  1011
 <ce>                    =mage_'s light is snuffed out.
 <ce>          The Brotherhood and the Mages Guild will be pleased.
 
-
--- Symbols used in the QRC file:
---
---                %g occurs 1 time.
---               %g2 occurs 2 times.
---               %g3 occurs 1 time.
---              %pcf occurs 4 times.
---              %pct occurs 4 times.
---              %qdt occurs 1 time.
---            =mage_ occurs 7 times.
---          =qgiver_ occurs 1 time.
---         =queston_ occurs 4 times.
---       ___mondung_ occurs 2 times.
---        ___qgiver_ occurs 2 times.
---            _mage_ occurs 1 time.
---          _qgiver_ occurs 1 time.
-
 QBN:
 
 Person _qgiver_ group Questor male
