@@ -85,7 +85,7 @@ Item _gold_ magic_item
 Person _qgiver_ face 1 group Questor
 Person _custodian_ face 1 group Group_5.0
 
-Place _dungeon_ remote dungeon
+Place _dungeon_ remote dungeon12
 
 Clock _traveltime_ 00:00 0 flag 1 range 0 2
 

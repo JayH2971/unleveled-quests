@@ -97,31 +97,12 @@ Message:  1013
 <ce>                       You have slain =target_.
 <ce>                   The Brotherhood will be pleased.
 
-
--- Symbols used in the QRC file:
---
---                %g occurs 3 times.
---               %g2 occurs 2 times.
---               %g3 occurs 4 times.
---              %pcn occurs 3 times.
---              %pct occurs 4 times.
---              %qdt occurs 2 times.
---               %ra occurs 1 time.
---              %reg occurs 1 time.
---         =queston_ occurs 2 times.
---          =snitch_ occurs 1 time.
---          =target_ occurs 47 times.
---       ___mondung_ occurs 3 times.
---        ___qgiver_ occurs 1 time.
---        ___snitch_ occurs 9 times.
---          _target_ occurs 1 time.
-
 QBN:
 
 Person _qgiver_ group Questor male
 Person _snitch_ factiontype Temple male
 
-Place _mondung_ remote dungeon
+Place _mondung_ remote dungeon3
 
 Clock _queston_ 00:00 0 flag 17 range 0 2
 

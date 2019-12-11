@@ -1,4 +1,3 @@
-Messages: 81
 Quest: M0B00Y06
 DisplayName: Wild Animal
 -- Message panels

@@ -1,4 +1,3 @@
-Messages: 81
 Quest: M0B00Y07
 DisplayName: Unwanted Houseguest
 -- Message panels

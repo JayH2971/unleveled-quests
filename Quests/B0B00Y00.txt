@@ -130,7 +130,7 @@ Person _qgiver_ group Questor
 Person _lady_ face 2 group Noble female
 Person _vamp_ face 40 factiontype Vampire_Clan
 
-Place _mondung_ remote dungeon3
+Place _mondung_ remote dungeon8
 
 Clock _2mondung_ 00:00 0 flag 17 range 0 2
 Clock _S.07_ 10:00 1.16:00

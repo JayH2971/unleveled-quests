@@ -84,12 +84,12 @@ Message:  1021
 <ce>                    The contract has been fulfilled.
 
 QBN:
-Item _reward_ gold range 400 to 600
+Item _reward_ gold range 900 to 1000
 
 Person _questgiver_ face 112 group Questor
 Person _damsel_ face 2 group Group_6.0
 
-Place _mondung_ remote dungeon2
+Place _mondung_ remote dungeon15
 
 Clock _1stparton_ 00:00 0 flag 18 range 0 2
 

@@ -294,9 +294,9 @@ Person _scholar_ group Chemist male
 Person _maker_ face 1 group Spellcaster
 Person _contact_ face 14 group Chemist
 
-Place _scholardung_ remote dungeon
-Place _hintdung_ remote dungeon
-Place _itemdung_ remote dungeon
+Place _scholardung_ remote dungeon3
+Place _hintdung_ remote dungeon2
+Place _itemdung_ remote dungeon11
 
 Clock _time1_ 00:00 0 flag 17 range 0 5
 Clock _time2_ 00:00 0 flag 17 range 1 2

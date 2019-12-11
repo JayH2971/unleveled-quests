@@ -86,7 +86,7 @@ Message:  1080
 <ce>                          Plenty of it there.
 
 QBN:
-Item _reward_ gold
+Item _reward_ gold range 800 to 1000
 
 Person _questgiver_ group Questor male
 

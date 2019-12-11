@@ -82,27 +82,12 @@ Message:  1020
  in hiding in a dungeon
  called ___mondung_.
 
-
--- Symbols used in the QRC file:
---
---                %g occurs 2 times.
---               %g3 occurs 3 times.
---              %pcf occurs 2 times.
---              %qdt occurs 1 time.
---       =1stparton_ occurs 2 times.
---         =monster_ occurs 7 times.
---       ___mondung_ occurs 4 times.
---    ___questgiver_ occurs 1 time.
---         _monster_ occurs 1 time.
---      _questgiver_ occurs 1 time.
---          _reward_ occurs 3 times.
-
 QBN:
-Item _reward_ gold
+Item _reward_ gold 200 to 400
 
 Person _questgiver_ face 112 group Questor
 
-Place _mondung_ remote dungeon
+Place _mondung_ remote dungeon12
 
 Clock _1stparton_ 00:00 0 flag 18 range 0 2
 Clock _2ndparton_ 2.18:40 4.04:00 flag 2 range 0 0

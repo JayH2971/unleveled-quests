@@ -104,7 +104,7 @@ Message:  1011
 <ce>                        Don't blow out that..."
 
 QBN:
-Item _gold_ gold
+Item _gold_ gold range 1500 to 2000
 
 Person _qgiver_ group Questor male
 

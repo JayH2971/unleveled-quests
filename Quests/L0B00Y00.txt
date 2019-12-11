@@ -72,7 +72,7 @@ QBN:
 
 Person _qgiver_ group Questor male
 
-Place _mondun_ remote dungeon
+Place _mondun_ remote dungeon2
 
 Clock _queston_ 00:00 0 flag 17 range 0 2
 

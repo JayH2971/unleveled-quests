@@ -80,7 +80,7 @@ Message:  1080
 <ce>                          Knock yourself out.
 
 QBN:
-Item _reward_ gold
+Item _reward_ gold range 300 to 500
 
 Person _questgiver_ group Questor male
 
