@@ -10,8 +10,8 @@ QuestorOffer:  [1000]
 <ce>                He seems rather confused as to whether
 <ce>                it is a bear or a tiger, but in either
 <ce>                  case, it wanted to eat him. We need
-<ce>                  you to go and slay the animal. You
-<ce>                     standard fee is _gold_ gold.
+<ce>                  you to go and slay the animal.
+<ce>                     You'll be paid _gold_ gold.
 <ce>                         Want to take it %pcn?
 
 RefuseQuest:  [1001]
