@@ -28,10 +28,7 @@ AcceptQuest:  [1002]
 QuestComplete:  [1004]
 <ce>                         %god's favor upon you
 <ce>                         %pcn. This _religitem_
-<ce>                        is sorely needed here. I
-<ce>                       understand that you are to
-<ce>                        be given a temple fee of
-<ce>                          _gold_ gold pieces.
+<ce>                        is sorely needed here.
 
 RumorsDuringQuest:  [1005]
 I got a boil the other day ... but it healed.
