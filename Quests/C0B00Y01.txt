@@ -1,5 +1,5 @@
 Quest: C0B00Y01
-DisplayName: The Heretic
+DisplayName: UQ The Heretic
 -- Message panels
 QRC:
 

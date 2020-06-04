@@ -1,5 +1,5 @@
 Quest: N0C00Y13
-DisplayName: An Ancient Scroll
+DisplayName: UQ An Ancient Scroll
 -- Message panels
 QRC:
 

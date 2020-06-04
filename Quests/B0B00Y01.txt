@@ -1,5 +1,5 @@
 Quest: B0B00Y01
-DisplayName: Retribution
+DisplayName: UQ Retribution
 -- Message panels
 QRC:
 

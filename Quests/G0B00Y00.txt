@@ -1,5 +1,5 @@
 Quest: G0B00Y00
-DisplayName: The Arm of Fury
+DisplayName: UQ The Arm of Fury
 -- Message panels
 QRC:
 

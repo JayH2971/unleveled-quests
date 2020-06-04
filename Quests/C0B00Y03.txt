@@ -1,5 +1,5 @@
 Quest: C0B00Y03
-DisplayName: The Missing Scholar
+DisplayName: UQ The Missing Scholar
 -- Message panels
 QRC:
 

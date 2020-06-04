@@ -1,6 +1,6 @@
 Messages: 21
 Quest: M0B00Y15
-DisplayName: Hunt for Giant Rodents
+DisplayName: UQ Hunt for Giant Rodents
 -- Message panels
 QRC:
 

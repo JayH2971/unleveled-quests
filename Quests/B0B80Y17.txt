@@ -1,5 +1,5 @@
 Quest: B0B80Y17
-DisplayName: The Army of Undead
+DisplayName: UQ The Army of Undead
 -- Message panels
 QRC:
 

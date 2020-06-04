@@ -1,5 +1,5 @@
 Quest: L0B00Y01
-DisplayName: No Escape
+DisplayName: UQ No Escape
 -- Message panels
 QRC:
 

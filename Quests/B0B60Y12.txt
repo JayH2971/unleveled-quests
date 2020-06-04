@@ -1,5 +1,5 @@
 Quest: B0B60Y12
-DisplayName: Eternal Rest
+DisplayName: UQ Eternal Rest
 -- Message panels
 QRC:
 

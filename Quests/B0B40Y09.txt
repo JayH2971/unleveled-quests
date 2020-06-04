@@ -1,5 +1,5 @@
 Quest: B0B40Y09
-DisplayName: Killing a Giant
+DisplayName: UQ Killing a Giant
 -- Message panels
 QRC:
 

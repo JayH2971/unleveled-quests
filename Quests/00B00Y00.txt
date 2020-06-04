@@ -1,5 +1,5 @@
 Quest: 00B00Y00
-DisplayName: The Price of Knowledge
+DisplayName: UQ The Price of Knowledge
 -- Message panels
 QRC:
 

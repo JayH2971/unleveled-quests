@@ -1,5 +1,5 @@
 Quest: N0B00Y09
-DisplayName: Research Notes
+DisplayName: UQ Research Notes
 -- Message panels
 QRC:
 

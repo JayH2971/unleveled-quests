@@ -1,5 +1,5 @@
 Quest: L0B20Y02
-DisplayName: A Knight Without Honor
+DisplayName: UQ A Knight Without Honor
 -- Message panels
 QRC:
 

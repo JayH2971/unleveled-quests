@@ -1,5 +1,5 @@
 Quest: M0B00Y06
-DisplayName: Wild Animal
+DisplayName: UQ Wild Animal
 -- Message panels
 QRC:
 

@@ -1,5 +1,5 @@
 Quest: L0B00Y03
-DisplayName: A Renegade Mage
+DisplayName: UQ A Renegade Mage
 -- Message panels
 QRC:
 

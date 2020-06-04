@@ -1,6 +1,5 @@
-
 Quest: B0B81Y02
-DisplayName: The Lost Artifact
+DisplayName: UQ The Lost Artifact
 -- Message panels
 QRC:
 
@@ -220,7 +219,7 @@ Foe _battlemage_ is Battle_mage
 
 variable _2dung_
 _S.01_ task:
-	killed 1 _F.01_ saying 1011
+	killed 1 _F.00_ saying 1011
 	_map_ used do _readmap_ 
 
 _S.02_ task:

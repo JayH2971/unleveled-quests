@@ -1,5 +1,5 @@
 Quest: C0B20Y08
-DisplayName: The Rite of Atonement
+DisplayName: UQ The Rite of Atonement
 -- Message panels
 QRC:
 

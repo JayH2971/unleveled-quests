@@ -1,5 +1,5 @@
 Quest: M0B50Y09
-DisplayName: Hunt for a Gargoyle
+DisplayName: UQ Hunt for a Gargoyle
 -- Message panels
 QRC:
 

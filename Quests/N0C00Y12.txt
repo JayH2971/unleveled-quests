@@ -1,5 +1,5 @@
 Quest: N0C00Y12
-DisplayName: The Loose Pet Imp
+DisplayName: UQ The Loose Pet Imp
 -- Message panels
 QRC:
 

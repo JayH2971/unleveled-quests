@@ -1,5 +1,5 @@
 Quest: M0B00Y07
-DisplayName: Unwanted Houseguest
+DisplayName: UQ Unwanted Houseguest
 -- Message panels
 QRC:
 

@@ -1,5 +1,5 @@
 Quest: C0B10Y05
-DisplayName: The Cursed Weapon
+DisplayName: UQ The Cursed Weapon
 -- Message panels
 QRC:
 

@@ -1,5 +1,5 @@
 Quest: N0B00Y08
-DisplayName: Cast the Sleep spell
+DisplayName: UQ Cast the Sleep spell
 -- Message panels
 QRC:
 

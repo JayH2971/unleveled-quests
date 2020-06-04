@@ -1,5 +1,5 @@
 Quest: C0B10Y06
-DisplayName: The Expiatory Sacrifice
+DisplayName: UQ The Expiatory Sacrifice
 -- Message panels
 QRC:
 

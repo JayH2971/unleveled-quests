@@ -1,5 +1,5 @@
 Quest: M0B40Y05
-DisplayName: Hunt for a Spriggan
+DisplayName: UQ Hunt for a Spriggan
 -- Message panels
 QRC:
 

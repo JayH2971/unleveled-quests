@@ -1,5 +1,5 @@
 Quest: J0B00Y00
-DisplayName: The Bounty
+DisplayName: UQ The Bounty
 -- Message panels
 QRC:
 

@@ -1,5 +1,5 @@
 Quest: M0B21Y19
-DisplayName: Standard Protection
+DisplayName: UQ Standard Protection
 -- Message panels
 QRC:
 

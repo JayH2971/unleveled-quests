@@ -1,5 +1,5 @@
 Quest: N0B00Y17
-DisplayName: Azimuthal Vectors
+DisplayName: UQ Azimuthal Vectors
 -- Message panels
 QRC:
 

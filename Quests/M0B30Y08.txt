@@ -1,5 +1,5 @@
 Quest: M0B30Y08
-DisplayName: Domestic Squabble
+DisplayName: UQ Domestic Squabble
 -- Message panels
 QRC:
 

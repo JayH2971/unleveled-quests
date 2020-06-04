@@ -1,5 +1,5 @@
 Quest: B0B50Y11
-DisplayName: The Exorcism
+DisplayName: UQ The Exorcism
 -- Message panels
 QRC:
 

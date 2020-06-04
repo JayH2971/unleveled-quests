@@ -1,5 +1,5 @@
 Quest: L0B10Y01
-DisplayName: A Fateful Song
+DisplayName: UQ A Fateful Song
 -- Message panels
 QRC:
 

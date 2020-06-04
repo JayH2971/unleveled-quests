@@ -1,5 +1,5 @@
 Quest: N0B40Y07
-DisplayName: Banish Daedra
+DisplayName: UQ Banish Daedra
 -- Message panels
 QRC:
 

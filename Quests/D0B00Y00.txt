@@ -1,5 +1,5 @@
 Quest: D0B00Y00
-DisplayName: Avenge the Dragons
+DisplayName: UQ Avenge the Dragons
 -- Message panels
 QRC:
 

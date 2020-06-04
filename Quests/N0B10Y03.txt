@@ -1,5 +1,5 @@
 Quest: N0B10Y03
-DisplayName: Guard the Guild
+DisplayName: UQ Guard the Guild
 -- Message panels
 QRC:
 

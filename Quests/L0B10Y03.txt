@@ -1,5 +1,5 @@
 Quest: L0B10Y03
-DisplayName: Unauthorized Absence
+DisplayName: UQ Unauthorized Absence
 -- Message panels
 QRC:
 

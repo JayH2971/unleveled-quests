@@ -1,5 +1,5 @@
 Quest: L0B50Y11
-DisplayName: Taking on the Thieves Guild
+DisplayName: UQ Taking on the Thieves Guild
 -- Message panels
 QRC:
 

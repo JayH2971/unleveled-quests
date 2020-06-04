@@ -1,5 +1,5 @@
 Quest: C0B00Y00
-DisplayName: The Haunted House
+DisplayName: UQ The Haunted House
 -- Message panels
 QRC:
 

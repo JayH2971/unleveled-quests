@@ -1,5 +1,5 @@
 Quest: C0B00Y14
-DisplayName: Hunt for Undead
+DisplayName: UQ Hunt for Undead
 -- Message panels
 QRC:
 

@@ -1,5 +1,5 @@
 Quest: E0B00Y00
-DisplayName: The Desecrated Temple
+DisplayName: UQ The Desecrated Temple
 -- Message panels
 QRC:
 

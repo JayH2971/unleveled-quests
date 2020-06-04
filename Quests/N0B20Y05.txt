@@ -1,5 +1,5 @@
 Quest: N0B20Y05
-DisplayName: A Dangerous Wizard
+DisplayName: UQ A Dangerous Wizard
 -- Message panels
 QRC:
 

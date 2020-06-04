@@ -1,5 +1,5 @@
 Quest: C0B00Y04
-DisplayName: The Insane Priest
+DisplayName: UQ The Insane Priest
 -- Message panels
 QRC:
 

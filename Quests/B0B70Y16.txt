@@ -1,5 +1,5 @@
 Quest: B0B70Y16
-DisplayName: The Dragonslayer
+DisplayName: UQ The Dragonslayer
 -- Message panels
 QRC:
 

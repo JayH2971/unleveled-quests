@@ -1,5 +1,5 @@
 Quest: M0B00Y16
-DisplayName: Giant Killing
+DisplayName: UQ Giant Killing
 -- Message panels
 QRC:
 

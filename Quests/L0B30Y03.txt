@@ -1,5 +1,5 @@
 Quest: L0B30Y03
-DisplayName: Contract on a Mage
+DisplayName: UQ Contract on a Mage
 -- Message panels
 QRC:
 

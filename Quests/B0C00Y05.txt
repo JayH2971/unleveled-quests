@@ -1,5 +1,5 @@
 Quest: B0C00Y05
-DisplayName: The Traitor
+DisplayName: UQ The Traitor
 -- Message panels
 QRC:
 

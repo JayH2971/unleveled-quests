@@ -1,5 +1,5 @@
 Quest: B0B71Y03
-DisplayName: The Artifact
+DisplayName: UQ The Artifact
 -- Message panels
 QRC:
 
@@ -335,8 +335,6 @@ _S.19_ task:
 _S.20_ task:
 	clicked item _aurielsbow_ 
 	make _aurielsbow_ permanent 
---	Discovered a new op-code:
-	_0x3c_ 19
 
 _S.21_ task:
 	clicked item _aurielshield_ 

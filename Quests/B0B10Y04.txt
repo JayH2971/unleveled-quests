@@ -1,5 +1,5 @@
 Quest: B0B10Y04
-DisplayName: The Crazed Mercenary
+DisplayName: UQ The Crazed Mercenary
 -- Message panels
 QRC:
 

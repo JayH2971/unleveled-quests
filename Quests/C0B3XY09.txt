@@ -1,5 +1,5 @@
 Quest: C0B3XY09
-DisplayName: The Great Evil
+DisplayName: UQ The Great Evil
 -- Message panels
 QRC:
 

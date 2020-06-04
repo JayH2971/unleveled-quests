@@ -1,5 +1,5 @@
 Quest: N0B00Y16
-DisplayName: Open a chest
+DisplayName: UQ Open a chest
 -- Message panels
 QRC:
 

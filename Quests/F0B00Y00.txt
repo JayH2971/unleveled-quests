@@ -1,5 +1,5 @@
 Quest: F0B00Y00
-DisplayName: Desired Artwork
+DisplayName: UQ Desired Artwork
 -- Message panels
 QRC:
 
