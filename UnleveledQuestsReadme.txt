@@ -5,8 +5,7 @@ Copy the contents of this zip file into the Streaming_Assets folder of your Dagg
 
 Uninstallation:
 
-Copy the contents of the included "Original Quests.zip" into the Streaming_Assets folder of your Daggerfall Unity installation. Replace everything. It should replace some files in your Quests and Tables folders. DELETE the "0UNLEVELED QUESTS.txt" file from the Quests folder.
-
+In the Tables folder, delete QuestList-Classic.txt, and rename ORIGINALQuestList-Classic.txt to QuestList-Classic.txt.
 
 Usage: Intended to be used with "Unleveled Mobs," though it works on its own.
 
