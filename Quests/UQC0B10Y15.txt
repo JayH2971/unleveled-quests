@@ -150,6 +150,10 @@ _clearclick_ task:
 _S.02_ task:
 	killed 1 _lich_ 
 
+_inj_ task:
+	injured _lich_
+	change foe _lich_ infighting true
+
 _S.03_ task:
 	when _S.01_ and _S.02_ 
 	say 1035 

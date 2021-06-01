@@ -98,6 +98,14 @@ _mondead_ task:
 	killed 1 _spellsword_ saying 1020 
 	killed 1 _nightblade_ saying 1020 
 
+_inj_ task:
+	injured _assassin_
+	injured _spellsword_
+	injured _nightblade_
+	change foe _assassin_ infighting true
+	change foe _spellsword_ infighting true
+	change foe _nightblade_ infighting true
+
 _qgclicked_ task:
 	clicked npc _qgiver_ 
 

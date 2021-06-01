@@ -108,6 +108,10 @@ _pcgetsgold_ task:
 _qgclicked_ task:
 	clicked npc _questgiver_ 
 
+_inj_ task:
+	injured _monster_
+	change foe _monster_ infighting true
+
 _S.02_ task:
 	killed 1 _monster_ 
 	say 1010 

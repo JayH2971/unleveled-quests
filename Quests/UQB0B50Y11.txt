@@ -90,6 +90,12 @@ _S.01_ task:
 	killed 1 _wraith_ saying 1011 
 	killed 1 _ghost_ saying 1011 
 
+_inj_ task:
+	injured _wraith_
+	injured _ghost_
+	change foe _wraith_ infighting true
+	change foe _ghost_ infighting true
+
 _S.02_ task:
 	clicked npc _qgiver_ 
 	give pc nothing 

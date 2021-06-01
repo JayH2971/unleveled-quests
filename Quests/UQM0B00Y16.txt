@@ -141,8 +141,14 @@ variable _map_
 variable _nomap_
 _S.02_ task:
 	injured _giant_ 
+	change foe _giant_ infighting true
 	start task _giantWaveWhileInDungeon_
 	say 1030 
+
+_infight_ task:
+	daily from 0:00 to 23:59
+	change foe _giantFriends_ infighting true
+	clear _infight_
 
 _S.03_ task:
 	killed 1 _giant_ 

@@ -102,6 +102,11 @@ _pcgetsgold_ task:
 	give pc nothing 
 	end quest 
 
+_inj_ task:
+	injured _imp_ 
+	change foe _imp_ infighting true
+	say 1020 
+
 variable _queston_
 _mondead_ task:
 	killed 1 _imp_ 

@@ -105,6 +105,10 @@ _pcgetsgold_ task:
 	when _qgclicked_ and _mondead_ 
 	give pc _reward_ 
 
+_inj_ task:
+	injured _monster_
+	change foe _monster_ infighting true
+
 _mondead_ task:
 	killed 1 _monster_ saying 1020 
 

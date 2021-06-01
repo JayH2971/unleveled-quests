@@ -105,6 +105,14 @@ _pcgetsgold_ task:
 	give pc _reward_ 
 	end quest 
 
+_inj_ task:
+	injured _werewolf_
+	injured _wereboar_
+	injured _bear_
+	change foe _werewolf_ infighting true
+	change foe _wereboar_ infighting true
+	change foe _bear_ infighting true
+
 _mondead_ task:
 	killed 1 _werewolf_ saying 1020 
 	killed 1 _wereboar_ saying 1020 

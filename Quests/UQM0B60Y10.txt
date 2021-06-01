@@ -104,6 +104,16 @@ Foe _ice_ is Ice_atronach
 _2dung_ task:
 	end quest 
 
+_inj_ task:
+	injured _ice_
+	injured _fire_
+	injured _flesh_
+	injured _iron_
+	change foe _ice_ infighting true
+	change foe _fire_ infighting true
+	change foe _flesh_ infighting true
+	change foe _iron_ infighting true
+
 _S.01_ task:
 	killed 1 _ice_ saying 1011 
 	killed 1 _fire_ saying 1011 

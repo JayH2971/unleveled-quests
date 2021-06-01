@@ -116,6 +116,7 @@ _pcgetsgold_ task:
 
 _S.01_ task:
 	injured _monster_ 
+	change foe _monster_ infighting true
 	say 1020 
 
 _mondead_ task:

@@ -222,6 +222,10 @@ _S.01_ task:
 	killed 1 _F.00_ saying 1011
 	_map_ used do _readmap_ 
 
+_inj_ task:
+	injured _F.00_
+	change foe _F.00_ infighting true
+
 _S.02_ task:
 	clicked npc _qgiver_ 
 
@@ -298,6 +302,10 @@ _no_ task:
 totemReward2 task:
 	killed 1 _ghost_ 
 	have _I.06_ set _S.24_ 
+
+_inj2_ task:
+	injured _ghost_
+	change foe _ghost_ infighting true
 
 _S.24_ task:
 	log 1042 step 2 

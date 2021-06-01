@@ -103,6 +103,16 @@ _pcgetsgold_ task:
 	give pc _reward_ 
 	end quest 
 
+_inj_ task:
+	injured _mummy_
+	injured _ghost_
+	injured _wraith_
+	injured _zombie_
+	change foe _mummy_ infighting true
+	change foe _ghost_ infighting true
+	change foe _wraith_ infighting true
+	change foe _zombie_ infighting true
+
 _mondead_ task:
 	killed 1 _mummy_ saying 1020 
 	killed 1 _ghost_ saying 1020 

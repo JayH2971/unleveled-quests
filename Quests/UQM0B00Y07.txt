@@ -118,6 +118,8 @@ _S.06_ task:
 
 _monster1_ task:
 	place foe _bear_ at _house_ 
+	change foe _bear_ infighting true
 
 _monster2_ task:
 	place foe _monster_ at _house_ 
+	change foe _monster_ infighting true

@@ -149,6 +149,7 @@ _S.02_ task:
 
 _S.03_ task:
 	injured _target_ saying 1013 
+	change foe _target_ infighting true
 
 _S.04_ task:
 	killed 1 _target_ saying 1014 

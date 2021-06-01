@@ -118,6 +118,12 @@ _clearclick_ task:
 _qgclicked_ task:
 	clicked npc _qgiver_ 
 
+_infight_ task:
+	daily from 0:00 to 23:59
+	change foe _rats_ infighting true
+	change foe _monster_ infighting true
+	clear _infight_
+
 _S.04_ task:
 	say 1011
 	create foe _rats_ every 1 minutes 7 times with 100% success 

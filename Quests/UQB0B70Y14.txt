@@ -126,6 +126,16 @@ Foe _lord_ is Daedra_lord
 _2dung_ task:
 	end quest 
 
+_inj_ task:
+	injured _frost_
+	injured _fire_
+	injured _lord_
+	injured _lesser_
+	change foe _frost_ infighting true
+	change foe _fire_ infighting true
+	change foe _lord_ infighting true
+	change foe _lesser_ infighting true
+
 _S.01_ task:
 	killed 1 _frost_ 
 	killed 1 _fire_ 

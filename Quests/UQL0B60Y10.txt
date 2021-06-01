@@ -107,15 +107,19 @@ _1stparton_ task:
 variable _2ndparton_
 _S.06_ task:
 	place foe _F.00_ at _mondung_ 
+	change foe _F.00_ infighting true
 
 _S.07_ task:
 	place foe _F.01_ at _mondung_ 
+	change foe _F.01_ infighting true
 
 _S.08_ task:
 	place foe _F.02_ at _mondung_ 
+	change foe _F.02_ infighting true
 
 _onehour_ task:
 	place foe _F.03_ at _mondung_ 
+	change foe _F.03_ infighting true
 
 _clearclick_ task:
 	when _qgclicked_ and not _S.02_

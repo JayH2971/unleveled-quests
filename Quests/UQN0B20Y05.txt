@@ -115,7 +115,10 @@ _pcgetsgold_ task:
 	unset _qgclicked_ 
 	end quest 
 
-variable _queston_
+_S.01_ task:
+	injured _monster_ 
+	change foe _monster_ infighting true
+
 _mondead_ task:
 	killed 1 _monster_ 
 	say 1040 

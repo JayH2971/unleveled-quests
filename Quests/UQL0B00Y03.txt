@@ -93,6 +93,10 @@ Foe _mage_ is Mage
 _queston_ task:
 	end quest 
 
+_inj_ task:
+	injured _mage_
+	change foe _mage_ infighting true
+
 _S.01_ task:
 	killed 1 _mage_ 
 	say 1011 

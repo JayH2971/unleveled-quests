@@ -109,6 +109,16 @@ _pcgetsgold_ task:
 _qgclicked_ task:
 	clicked npc _questgiver_ 
 
+_inj_ task:
+	injured _F.03_
+	injured _F.02_
+	injured _F.01_
+	injured _F.00_
+	change foe _F.03_ infighting true
+	change foe _F.02_ infighting true
+	change foe _F.01_ infighting true
+	change foe _F.00_ infighting true
+
 _S.02_ task:
 	killed 1 _F.01_ saying 1021 
 	killed 1 _F.02_ saying 1021 

@@ -547,6 +547,7 @@ _S.20_ task:
 	hide npc _prophet_ 
 	say 1030 
 	place foe _fighter_ at _prophouse_ 
+	change foe _fighter_ infighting true
 
 _S.21_ task:
 	toting _relartifact_ and _prophet_ clicked 

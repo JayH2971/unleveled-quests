@@ -151,6 +151,10 @@ Foe imp0 is Giant_rat
 _2mondung_ task:
 	end quest 
 
+_inj_ task:
+	injured _monster_
+	change foe _monster_ infighting true
+
 _S.01_ task:
 	when _qgclicked_ and _S.04_ 
 	give pc nothing 

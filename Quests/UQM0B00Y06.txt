@@ -148,15 +148,19 @@ _S.06_ task:
 _monster1_ task:
 	say 1021 
 	place foe _bear_ at _house_ 
+	change foe _bear_ infighting true
 
 _monster2_ task:
 	say 1022 
 	place foe _harpy_ at _house_ 
+	change foe _harpy_ infighting true
 
 _monster3_ task:
 	say 1023 
 	place foe _spider_ at _house_ 
+	change foe _spider_ infighting true
 
 _monster4_ task:
 	say 1024 
 	place foe _tiger_ at _house_ 
+	change foe _tiger_ infighting true

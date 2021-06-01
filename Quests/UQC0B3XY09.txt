@@ -69,7 +69,7 @@ Message:  1011
 <ce>                   As you reach for the _evilfocus_
 <ce>                 it transforms into a beautiful woman.
 <ce>                                    
-<ce>                      What a tasty young mortal!
+<ce>                      "What a tasty young mortal!
 <ce>                       I see you came to destroy
 <ce>                        the _evilfocus_. I have
 <ce>                       a better idea. If I give
@@ -79,11 +79,11 @@ Message:  1011
 <ce>                    couldn't find the _evilfocus_.
 <ce>                      They can hardly blame you,
 <ce>                        and you get to keep the
-<ce>                             _magicitem_.
+<ce>                             _magicitem_."
 
 Message:  1012
-<ce>                        Then die like the pious
-<ce>                            mortal you are!
+<ce>                        "Then die like the pious
+<ce>                            mortal you are!"
 
 Message:  1013
 <ce>  The curse is lifted. You should report to _qgiver_.
@@ -129,13 +129,23 @@ _yes_ task:
 
 _no_ task:
 	injured _guardian_
-	create foe _guardian_ every 1 minutes 1 times with 100% success
+	create foe _guardian_ every 0 minutes 1 times with 100% success
 --moved create guardian down to here due to S.01 clearing itself
 	create foe _F.02_ every 5 minutes 1 times with 100% success 
 	create foe _spiders_ every 9 minutes 1 times with 100% success 
 	create foe _lesserdaedra_ every 7 minutes 1 times with 100% success 
 	create foe _F.03_ every 3 minutes 1 times with 100% success 
 	say 1012 
+	change foe _guardian_ infighting true
+	change foe _guardian_ team 0
+	change foe _F.02_ infighting true
+	change foe _F.02_ team 0
+	change foe _spiders_ infighting true
+	change foe _spiders_ team 0
+	change foe _lesserdaedra_ infighting true
+	change foe _lesserdaedra_ team 0
+	change foe _F.03_ infighting true
+	change foe _F.03_ team 0
 
 _S.04_ task:
 	killed 1 _guardian_ 

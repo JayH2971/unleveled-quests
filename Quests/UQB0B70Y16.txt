@@ -90,6 +90,10 @@ Foe _monster_ is Dragonling
 _2dung_ task:
 	end quest 
 
+_inj_ task:
+	injured _monster_
+	change foe _monster_ infighting true
+
 _S.01_ task:
 	killed 1 _monster_ saying 1011 
 

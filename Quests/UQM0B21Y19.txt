@@ -216,6 +216,12 @@ _S.05_ task:
 	rumor mill 1040 
 	hide npc _victim_ 
 
+_infight_ task:
+	daily from 0:00 to 23:59
+	change foe _enemy_ infighting true
+	change foe _F.02_ infighting true
+	clear _infight_
+
 _deadbody_ task:
 	clicked item _I.02_
 	take _I.02_ from pc
@@ -225,6 +231,7 @@ _S.06_ task:
 	clicked npc _darkb_ 
 	create foe _enemy_ every 3 minutes 5 times with 100% success 
 	create foe _F.01_ every 0 minutes 1 times with 100% success 
+	change foe _F.01_ infighting true
 	--reduced spawn time to instant
 	hide npc _darkb_ 
 	say 1050 

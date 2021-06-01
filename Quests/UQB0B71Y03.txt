@@ -198,31 +198,6 @@ Message:  1052
  the path to _lordsmail_
  is through ___dungeon2_.
 
-
--- Symbols used in the QRC file:
---
---               %cn occurs 3 times.
---                %g occurs 3 times.
---              %jok occurs 9 times.
---              %oth occurs 15 times.
---              %pcf occurs 2 times.
---              %pcn occurs 3 times.
---              %pct occurs 2 times.
---              %qdt occurs 7 times.
---              %reg occurs 3 times.
---    =finddaughter_ occurs 3 times.
---      ___dungeon1_ occurs 5 times.
---      ___dungeon2_ occurs 12 times.
---         __palace_ occurs 9 times.
---     __questgiver_ occurs 1 time.
---      _aurielsbow_ occurs 6 times.
---    _aurielshield_ occurs 6 times.
---           _child_ occurs 13 times.
---       _lordsmail_ occurs 6 times.
---          _palace_ occurs 12 times.
---      _questgiver_ occurs 1 time.
---           _witch_ occurs 9 times.
-
 QBN:
 Item _aurielshield_ artifact Auriels_Shield
 Item _aurielsbow_ artifact Auriels_Bow

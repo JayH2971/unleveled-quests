@@ -113,6 +113,16 @@ _mondead_ task:
 	killed 1 _knight_ saying 1020 
 	killed 1 _archer_ saying 1020 
 
+_inj_ task:
+	injured _spellsword_
+	injured _ranger_
+	injured _knight_
+	injured _archer_
+	change foe _spellsword_ infighting true
+	change foe _ranger_ infighting true
+	change foe _knight_ infighting true
+	change foe _archer_ infighting true
+
 _qgclicked_ task:
 	clicked npc _questgiver_ 
 

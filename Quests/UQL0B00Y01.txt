@@ -122,6 +122,10 @@ _reward_ task:
 	give pc nothing 
 	end quest 
 
+_inj_ task:
+	injured _target_
+	change foe _target_ infighting true
+
 _S.02_ task:
 	killed 1 _target_ 
 	say 1013 

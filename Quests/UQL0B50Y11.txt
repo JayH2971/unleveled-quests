@@ -160,28 +160,42 @@ _S.01_ task:
 	pc at _house_ set _S.05_ 
 	cast Shield spell on _home_ 
 	place foe _home_ at _house_ 
+	change foe _home_ infighting true
 
 _S.02_ task:
 	daily from 19:01 to 23:59 
 	pc at _inn_ set _S.05_ 
 	cast Shield spell on _home_ 
 	place foe _home_ at _inn_ 
+	change foe _home_ infighting true
 
 _S.03_ task:
 	daily from 10:01 to 18:00 
 	pc at _guildhall_ set _S.05_ 
 	cast Shield spell on _home_ 
 	place foe _home_ at _guildhall_ 
+	change foe _home_ infighting true
 
 _S.04_ task:
 	daily from 18:01 to 19:00 
 	pc at _mistresshome_ set _S.06_ 
 	place foe _home_ at _mistresshome_ 
+	change foe _home_ infighting true
 
 _S.05_ task:
 	create foe _F.03_ every 2 minutes 5 times with 50% success 
 	create foe _F.02_ every 4 minutes 5 times with 50% success 
 	create foe _F.01_ every 3 minutes 5 times with 50% success 
+
+_infight_ task:
+	daily from 0:00 to 23:59
+	change foe _F.03_ infighting true
+	change foe _F.03_ team 0
+	change foe _F.02_ infighting true
+	change foe _F.02_ team 0
+	change foe _F.01_ infighting true
+	change foe _F.01_ team 0
+	clear _infight_
 
 variable _S.06_
 _S.07_ task:

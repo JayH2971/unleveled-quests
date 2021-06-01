@@ -108,6 +108,10 @@ _pcgetsgold_ task:
 _mondead_ task:
 	killed 1 _monster_ saying 1011 
 
+_inj_ task:
+	injured _monster_
+	change foe _monster_ infighting true
+
 _qgclicked_ task:
 	clicked npc _qgiver_ 
 

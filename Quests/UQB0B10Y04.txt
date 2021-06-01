@@ -141,6 +141,10 @@ variable _S.04_
 until _S.04_ performed:
 	pc at _mondung_ set _S.07_ 
 
+_inj_ task:
+	injured _soldier_
+	change foe _soldier_ infighting true
+
 _S.05_ task:
 	killed 1 _soldier_ 
 	say 1014 
@@ -153,6 +157,13 @@ _S.07_ task:
 	create foe _F.02_ every 107 minutes 50 times with 10% success 
 	create foe _hunter_ every 113 minutes 20 times with 8% success 
 	place foe _soldier_ at _mondung_ 
+
+_infight_ task:
+	daily from 0:00 to 23:59
+	change foe _note_ infighting true
+	change foe _F.02_ infighting true
+	change foe _hunter_ infighting true
+	clear _infight_
 
 _questdone_ task:
 	when _S.05_ or _S.04_ 

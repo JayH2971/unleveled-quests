@@ -99,15 +99,19 @@ _success_ task:
 
 _S.02_ task:
 	place foe _ghost_ at _house_ 
+	change foe _ghost_ infighting true
 
 _S.03_ task:
 	place foe _skeleton_ at _house_ 
+	change foe _skeleton_ infighting true
 
 _S.04_ task:
 	place foe _wraith_ at _house_ 
+	change foe _wraith_ infighting true
 
 _S.05_ task:
 	place foe _zombie_ at _house_ 
+	change foe _zombie_ infighting true
 
 _S.06_ task:
 	killed 1 _zombie_ 

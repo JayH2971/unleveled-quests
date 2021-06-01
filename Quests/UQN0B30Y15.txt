@@ -89,6 +89,7 @@ Foe _imp_ is Imp
 	log 1010 step 0 
 	pc at _palace_ set _S.01_ 
 	place foe _imp_ at _palace_ 
+	change foe _imp_ infighting true
 	create npc at _palace_ 
 
 _traveltime_ task:

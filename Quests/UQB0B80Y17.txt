@@ -86,6 +86,9 @@ Foe _F.00_ is Ancient_lich
 	log 1010 step 0
 	place foe _F.00_ at _dungeon_ 
 
+_inj_ task:
+	injured _F.00_
+	change foe _F.00_ infighting true
 
 _2dung_ task:
 	end quest 

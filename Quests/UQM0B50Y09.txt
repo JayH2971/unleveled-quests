@@ -93,13 +93,17 @@ Foe _monster_ is Gargoyle
 _2dung_ task:
 	end quest 
 
+_inj_ task:
+	injured _monster_
+	change foe _monster_ infighting true
+
 _S.01_ task:
 	killed 1 _monster_ saying 1011 
 
 _victory_ task:
-                when _S.01_ and _qgclicked_
+    when _S.01_ and _qgclicked_
 	give pc _gold_ 
-                start timer _end_
+    start timer _end_
 
 _end_ task:
 	end quest 

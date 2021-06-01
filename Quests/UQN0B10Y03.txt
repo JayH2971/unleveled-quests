@@ -132,6 +132,12 @@ _S.03_ task:
 _S.04_ task:
 	injured _F.00_ saying 1012 
 
+_infight_ task:
+	daily from 0:00 to 23:59
+	change foe _F.00_ infighting true
+	change foe _F.01_ infighting true
+	clear _infight_
+
 _S.05_ task:
 	killed 2 _F.00_ 
 

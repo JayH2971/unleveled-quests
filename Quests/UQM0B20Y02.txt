@@ -112,6 +112,11 @@ _pcgetsgold_ task:
 _S.01_ task:
 	create foe _monster_ every 15 minutes 15 times with 50% success 
 
+_infight_ task:
+	daily from 0:00 to 23:59
+	change foe _monster_ infighting true
+	clear _infight_
+
 _mondead_ task:
 	killed 6 _monster_ 
 	say 1010 

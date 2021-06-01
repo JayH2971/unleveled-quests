@@ -283,36 +283,6 @@ Message:  1073
 <ce>                       "Tell that bitch that she
 <ce>                     hasn't seen the last of me!"
 
-
--- Symbols used in the QRC file:
---
---                %g occurs 10 times.
---               %g2 occurs 6 times.
---               %g3 occurs 8 times.
---              %god occurs 1 time.
---              %oth occurs 2 times.
---              %pcf occurs 1 time.
---              %pcn occurs 9 times.
---              %qdt occurs 4 times.
---               %ra occurs 1 time.
---      =gettraitor_ occurs 2 times.
---    ___questgiver_ occurs 1 time.
---    ___stronghold_ occurs 10 times.
---         __palace_ occurs 2 times.
---     __questgiver_ occurs 1 time.
---    __targethouse_ occurs 1 time.
---          _amulet_ occurs 1 time.
---           _enemy_ occurs 5 times.
---     _queenreward_ occurs 2 times.
---      _questgiver_ occurs 4 times.
---          _reward_ occurs 2 times.
---           _ruler_ occurs 225 times.
---          _target_ occurs 64 times.
---     _targethouse_ occurs 3 times.
---          _tavern_ occurs 1 time.
---         _traitor_ occurs 24 times.
---   _traitorreward_ occurs 1 time.
-
 QBN:
 Item _amulet_ amulet
 Item _reward_ gold
@@ -412,6 +382,13 @@ _S.09_ task:
 	get item _I.03_ 
 	drop _target_ face 
 
+_infight_ task:
+	daily from 0:00 to 23:59
+	change foe _F.00_ infighting true
+	change foe _F.03_ infighting true
+	change foe _mages_ infighting true
+	clear _infight_
+
 _S.10_ task:
 	pc at _L.00_ set _S.12_ 
 	when _S.11_ and _S.00_ 
@@ -489,6 +466,7 @@ _S.27_ task:
 
 _hittraitor_ task:
 	injured _mtraitor_ 
+	change foe _mtraitor_ infighting true
 	start timer _S.35_ 
 	stop timer _gettraitor_ 
 	say 1071 

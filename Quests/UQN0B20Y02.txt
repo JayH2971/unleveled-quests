@@ -1,11 +1,3 @@
--- Quest: C:\QUESTS\WORKING\N0B20Y02.Qbn.
--- StartsBy: NPC
--- Questee: member
--- Questor: mage
--- Repute: 20
--- QuestId: 2
--- Edited for Daggerfall Unity by Jay_H
-Messages: 31
 Quest: UQN0B20Y02
 DisplayName: UQ Protect an Honored Mage
 -- Message panels
@@ -167,6 +159,14 @@ _S.04_ task:
 	cast Spell_Shield spell on _mage_ 
 	cast Spell_Absorption spell on _mage_ 
 	place foe _mage_ at _magesguild_ 
+
+_infight_ task:
+	daily from 0:00 to 23:59
+	change foe _F.00_ infighting true
+	change foe _F.02_ infighting true
+	change foe _F.03_ infighting true
+	change foe _F.04_ infighting true
+	clear _infight_
 
 _S.05_ task:
 	when not _S.12_ and not _S.04_ 

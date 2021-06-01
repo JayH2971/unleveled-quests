@@ -123,6 +123,7 @@ _S.05_ task:
 _S.06_ task:
 	when _S.04_ and not _S.05_ 
 	place foe _monster_ at _house_ 
+	change foe _monster_ infighting true
 
 variable _map_
 variable _nomap_

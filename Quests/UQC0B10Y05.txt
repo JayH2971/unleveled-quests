@@ -114,6 +114,14 @@ until _S.01_ performed:
 	create foe _orc1_ every 21 minutes 20 times with 5% success 
 	create foe _orc3_ every 31 minutes 20 times with 5% success 
 
+_infight_ task:
+	daily from 0:00 to 23:59
+	change foe _orc2_ infighting true
+	change foe _orc4_ infighting true
+	change foe _orc1_ infighting true
+	change foe _orc3_ infighting true
+	clear _infight_
+
 variable _gem1_
 variable _bear_
 variable _gem3_

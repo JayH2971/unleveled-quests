@@ -192,6 +192,7 @@ _yes_ task:
 
 _no_ task:
 	say 1022 
+	change foe _monster_ infighting true
 
 _S.07_ task:
 	clicked npc _woodsman_

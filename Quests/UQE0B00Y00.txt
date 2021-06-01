@@ -126,6 +126,12 @@ _mondead_ task:
 	killed 1 _wolf_ saying 1020 
 	killed 1 boar saying 1020 
 
+_inj_ task:
+	injured _wolf_
+	injured boar
+	change foe _wolf_ infighting true
+	change foe boar infighting true
+
 _qgclicked_ task:
 	clicked npc _questgiver_ 
 
